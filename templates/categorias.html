@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerir Categorias</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page page--categorias">
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1 class="header__title">Gerir Categorias</h1>
+        <a href="index.html" class="header__back">← Voltar ao Início</a>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- FORM NOVA CATEGORIA -->
+        <section class="section section--form">
+            <h2 class="section__title">Criar Nova Categoria</h2>
+
+            <form id="formCategoria" class="form form--categoria">
+                <div class="form__group">
+                    <label for="nomeCategoria" class="form__label">Nome:</label>
+                    <input type="text" id="nomeCategoria" class="form__input" required>
+                </div>
+
+                <button type="submit" class="button button--primary">Adicionar</button>
+            </form>
+
+            <p id="categoriaMensagem" class="message"></p>
+        </section>
+
+        <!-- LISTA DE CATEGORIAS -->
+        <section class="section section--lista">
+            <h2 class="section__title">Categorias Existentes</h2>
+
+            <table class="table table--categorias">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__header">ID</th>
+                        <th class="table__header">Nome</th>
+                        <th class="table__header">Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabelaCategorias" class="table__body">
+                    <!-- Conteúdo gerado por JS -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__text">Projeto POO — Gestão de Finanças</p>
+    </footer>
+
+    <script src="js/categorias.js"></script>
+</body>
+</html>
