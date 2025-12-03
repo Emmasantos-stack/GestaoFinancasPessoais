@@ -80,6 +80,11 @@ namespace SistemaFinanceiro
             this.id = id;
             this.nome = nome;
         }
+
+        internal bool Validar()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class Relatorio
