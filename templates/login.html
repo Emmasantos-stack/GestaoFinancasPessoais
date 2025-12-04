@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login — Gestão Finanças</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page--login">
+  <main class="main main--center">
+    <section class="card card--login">
+      <h1 class="card__title">Entrar</h1>
+
+      <form id="formLogin" class="form form--login" aria-label="Formulário de login">
+        <div class="form__group">
+          <label for="email" class="form__label">Email</label>
+          <input id="email" type="email" class="form__input" required />
+        </div>
+
+        <div class="form__group">
+          <label for="password" class="form__label">Password</label>
+          <input id="password" type="password" class="form__input" required minlength="4" />
+        </div>
+
+        <button class="button button--primary" type="submit">Entrar</button>
+      </form>
+
+      <p id="loginMsg" class="message message--info"></p>
+
+      <p class="card__note">
+        Se ainda não tem conta, crie uma em <a href="utilizadores.html">Gerir Utilizadores</a>.
+      </p>
+    </section>
+  </main>
+
+  <script src="js/session.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
+
