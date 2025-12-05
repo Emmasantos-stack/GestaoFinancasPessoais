@@ -1,6 +1,6 @@
 namespace SistemaFinanceiro
 {
-    public class Utilizador
+    public class Utilizadores
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -8,9 +8,10 @@ namespace SistemaFinanceiro
         public string Password { get; set; }
         public string Perfil { get; set; }
 
-        public Utilizador() { }
+       public Utilizadores() { }
 
-        public Utilizador(int id, string nome, string email, string password, string perfil = "User")
+
+        public Utilizadores(int id, string nome, string email, string password, string perfil = "User")
         {
             Id = id;
             Nome = nome;

@@ -13,7 +13,7 @@ namespace SistemaFinanceiro.Services
             _sistema = sistema;
         }
 
-   
+        //Listar Categorias
         public void ListarCategorias()
         {
             Console.WriteLine("\n====== LISTA DE CATEGORIAS ======");
@@ -32,7 +32,7 @@ namespace SistemaFinanceiro.Services
             Console.WriteLine("================================\n");
         }
 
- 
+            //Criar Categoria
         public void CriarCategoria()
         {
             Console.Write("\nIntroduza o nome da nova categoria: ");
@@ -56,7 +56,8 @@ namespace SistemaFinanceiro.Services
 
             Console.Write("Introduza o ID da categoria a editar: ");
             if (!int.TryParse(Console.ReadLine(), out int id))
-            {
+            {  
+                 // Validação: ID tem de ser um número
                 Console.WriteLine("ID inválido!");
                 return;
             }
@@ -94,7 +95,7 @@ namespace SistemaFinanceiro.Services
                 Console.WriteLine("ID inválido!");
                 return;
             }
-
+                 // Procura categoria com o ID
             var categoria = _sistema.Categorias.FirstOrDefault(c => c.Id == id);
             if (categoria == null)
             {
@@ -102,7 +103,7 @@ namespace SistemaFinanceiro.Services
                 return;
             }
 
-          
+                 // Verifica se existem transações associadas à categoria
             bool temTransacoes = _sistema.Transacoes.Any(t => t.CategoriaId == id);
             if (temTransacoes)
             {
@@ -120,7 +121,7 @@ namespace SistemaFinanceiro.Services
         public void MenuCategorias()
         {
             int opcao = -1;
-
+                // O menu funciona até o utilizador escolher a opção 0  
             while (opcao != 0)
             {
                 Console.WriteLine("===== GESTÃO DE CATEGORIAS =====");
@@ -133,7 +134,7 @@ namespace SistemaFinanceiro.Services
 
                 int.TryParse(Console.ReadLine(), out opcao);
                 Console.WriteLine();
-
+                     // Seleção da opção
                 switch (opcao)
                 {
                     case 1: ListarCategorias(); break;
