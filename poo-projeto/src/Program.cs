@@ -12,13 +12,13 @@ namespace SistemaFinanceiro
 
             // Serviços
             var gerirUtilizadores = new GerirUtilizadores(sistema);
-            var gerirCategorias = new GerirCategorias(sistema);
+            var gerirCategoria = new GerirCategoria(sistema);
             var gerirTransacoes = new GerirTransacoes(sistema);
 
             // Menu principal
             var menu = new MenuPrincipal(
                 gerirUtilizadores,
-                gerirCategorias,
+                gerirCategoria,
                 gerirTransacoes
             );
 

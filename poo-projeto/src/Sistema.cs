@@ -1,6 +1,6 @@
 
 using SistemaFinanceiro.Models; 
-// Importa as classes do namespace Models (Utilizador, Categorias, Transacao)
+// Importa as classes do namespace Models (Utilizador, Categoria, Transacao)
 
 namespace SistemaFinanceiro.Services
 {
@@ -12,9 +12,9 @@ namespace SistemaFinanceiro.Services
         // O set é privado para impedir alterações diretas fora da classe
         public List<Utilizador> Utilizadores { get; private set; }
 
-        // Lista de categorias financeiras (ex.: Alimentação, Transporte, etc.)
+        // Lista de Categoria financeiras (ex.: Alimentação, Transporte, etc.)
         // Apenas a classe Sistema pode alterar esta lista
-        public List<Categorias> Categorias { get; private set; }
+        public List<Categoria> Categoria { get; private set; }
 
         // Lista de transações financeiras (receitas e despesas)
         // Controlada internamente pela classe Sistema
@@ -28,13 +28,13 @@ namespace SistemaFinanceiro.Services
             // Utiliza variáveis locais para receber os dados carregados
             PersistenciaJson.Carregar(
                 out var utilizadores,  // Lista de utilizadores carregada
-                out var categorias,    // Lista de categorias carregada
+                out var Categoria,    // Lista de Categoria carregada
                 out var transacoes     // Lista de transações carregada
             );
 
             // Atribui os dados carregados às propriedades da classe
             Utilizadores = utilizadores;
-            Categorias = categorias;
+            Categoria = Categoria;
             Transacoes = transacoes;
         }
 
@@ -44,7 +44,7 @@ namespace SistemaFinanceiro.Services
         {
             PersistenciaJson.Guardar(
                 Utilizadores,  // Guarda os utilizadores
-                Categorias,    // Guarda as categorias
+                Categoria,    // Guarda as Categoria
                 Transacoes     // Guarda as transações
             );
         }

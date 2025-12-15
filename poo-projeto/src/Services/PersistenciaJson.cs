@@ -11,7 +11,7 @@ namespace SistemaFinanceiro.Services
         private class Dados
         {
             public List<Utilizador> Utilizadores { get; set; } = new();
-            public List<Categorias> Categorias { get; set; } = new();
+            public List<Categoria> Categoria { get; set; } = new();
             public List<Transacao> Transacoes { get; set; } = new();
         }
 
@@ -20,13 +20,13 @@ namespace SistemaFinanceiro.Services
         // -------------------------------
         public static void Guardar(
             List<Utilizador> utilizadores,
-            List<Categorias> categorias,
+            List<Categoria> Categoria,
             List<Transacao> transacoes)
         {
             var dados = new Dados
             {
                 Utilizadores = utilizadores,
-                Categorias = categorias,
+                Categoria = Categoria,
                 Transacoes = transacoes
             };
 
@@ -43,13 +43,13 @@ namespace SistemaFinanceiro.Services
         // -------------------------------
         public static void Carregar(
             out List<Utilizador> utilizadores,
-            out List<Categorias> categorias,
+            out List<Categoria> Categoria,
             out List<Transacao> transacoes)
         {
             if (!File.Exists(Ficheiro))
             {
                 utilizadores = new();
-                categorias = new();
+                Categoria = new();
                 transacoes = new();
                 return;
             }
@@ -58,11 +58,11 @@ namespace SistemaFinanceiro.Services
             var dados = JsonSerializer.Deserialize<Dados>(json);
 
             utilizadores = dados?.Utilizadores ?? new();
-            categorias = dados?.Categorias ?? new();
+            Categoria = dados?.Categoria ?? new();
             transacoes = dados?.Transacoes ?? new();
         }
 
-        internal static void Guarda(List<Utilizador> utilizadores, List<Categorias> categorias, List<Transacao> transacoes)
+        internal static void Guarda(List<Utilizador> utilizadores, List<Categoria> Categoria, List<Transacao> transacoes)
         {
             throw new NotImplementedException();
         }
