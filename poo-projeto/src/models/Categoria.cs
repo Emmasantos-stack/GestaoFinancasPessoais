@@ -1,13 +1,12 @@
-namespace SistemaFinanceiro
+namespace SistemaFinanceiro.Models
 {
-    public class Categorias
+    public class Categoria
     {
         public int Id { get; set; }
         public string Nome { get; set; }
 
-        public Categorias() { }
 
-        public Categorias(int id, string nome)
+        public Categoria(int id, string nome)
         {
             Id = id;
             Nome = nome;

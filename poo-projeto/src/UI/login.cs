@@ -1,128 +1,30 @@
-using System;
-using System.Collections.Generic;
+using System.Linq;
+using SistemaFinanceiro.Models;
 
-namespace SistemaFinanceiro
+namespace SistemaFinanceiro.Services
 {
-    public class Utilizador
+    public class Login
     {
-        // Atributos
-        private int id;
-        private string nome;
-        private string email;
-        private string password;
-        private string perfil;
+        private readonly Sistema _sistema;
 
-        // Relacionamento: um Utilizador possui várias Transações
-        public List<Transacao> Transacoes { get; set; }
-
-        // Construtor
-        public Utilizador(int id, string nome, string email, string password, string perfil)
+        public Login(Sistema sistema)
         {
-            this.id = id;
-            this.nome = nome;
-            this.email = email;
-            this.password = password;
-            this.perfil = perfil;
-            Transacoes = new List<Transacao>();
+            _sistema = sistema;
         }
 
-        // Métodos
-        public void Login()
+        // ---------------------------------------------
+        // AUTENTICAÇÃO
+        // ---------------------------------------------
+        public Utilizador? Autenticar(string email, string password)
         {
-            Console.WriteLine($"{nome} fez login com sucesso!");
+            return _sistema.Utilizadores.FirstOrDefault(u =>
+                string.Equals(u.Email, email) &&
+                string.Equals(u.Password, password));
         }
 
-        public void Logout()
+        public bool CredenciaisValidas(string email, string password)
         {
-            Console.WriteLine($"{nome} saiu da conta.");
-        }
-    }
-
-    public class Transacao
-    {
-        // Atributos
-        private int id;
-        private string descricao;
-        private double valor;
-        private DateTime data;
-        private string tipo;
-
-        // Relacionamento: cada Transação pertence a uma Categoria
-        public Categoria Categoria { get; set; }
-
-        // Construtor
-        public Transacao(int id, string descricao, double valor, DateTime data, string tipo, Categoria categoria)
-        {
-            this.id = id;
-            this.descricao = descricao;
-            this.valor = valor;
-            this.data = data;
-            this.tipo = tipo;
-            this.Categoria = categoria;
-        }
-
-        // Método
-        public bool ValidarValor()
-        {
-            return valor >= 0;
-        }
-    }
-
-    public class Categoria
-    {
-        // Atributos
-        private int id;
-        private string nome;
-
-        // Construtor
-        public Categoria(int id, string nome)
-        {
-            this.id = id;
-            this.nome = nome;
-        }
-
-        internal bool Validar()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class Relatorio
-    {
-        // Métodos
-        public double CalcularSaldo(List<Transacao> transacoes)
-        {
-            double saldo = 0;
-            foreach (var t in transacoes)
-            {
-                if (t.ValidarValor())
-                {
-                    saldo += t.Tipo == "Receita" ? t.Valor : -t.Valor;
-                }
-            }
-            return saldo;
-        }
-
-        public double TotalReceitas(List<Transacao> transacoes)
-        {
-            double total = 0;
-            foreach (var t in transacoes)
-            {
-                if (t.Tipo == "Receita")
-                    total += t.Valor;
-            }
-            return total;
-        }
-
-        public double TotalDespesas(List<Transacao> transacoes)
-        {
-            double total = 0;
-            foreach (var t in transacoes)
-            {
-                if (t.Tipo == "Despesa")
-                    total += t.Valor;
-            }
-            return total;
+            return Autenticar(email, password) != null;
         }
     }
 }

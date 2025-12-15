@@ -1,6 +1,6 @@
-namespace SistemaFinanceiro
+namespace SistemaFinanceiro.Models
 {
-    public class Utilizadores
+    public class Utilizador
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -8,10 +8,7 @@ namespace SistemaFinanceiro
         public string Password { get; set; }
         public string Perfil { get; set; }
 
-       public Utilizadores() { }
-
-
-        public Utilizadores(int id, string nome, string email, string password, string perfil = "User")
+        public Utilizador(int id, string nome, string email, string password, string perfil)
         {
             Id = id;
             Nome = nome;
@@ -19,17 +16,5 @@ namespace SistemaFinanceiro
             Password = password;
             Perfil = perfil;
         }
-
-        public bool Validar()
-        {
-            return 
-                !string.IsNullOrWhiteSpace(Nome) &&
-                !string.IsNullOrWhiteSpace(Email) &&
-                !string.IsNullOrWhiteSpace(Password) &&
-                !string.IsNullOrWhiteSpace(Perfil);
-        }
-
-        public override string ToString() =>
-            $"{Id} - {Nome} ({Email}) | Perfil: {Perfil}";
     }
 }
