@@ -35,3 +35,12 @@ C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.dll
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\refint\poo-projeto.dll
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfoInputs.cache
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfo.cs
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.csproj.CoreCompileInputs.cache
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.sourcelink.json
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.dll
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\refint\poo-projeto.dll
+c:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
