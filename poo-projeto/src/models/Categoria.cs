@@ -1,8 +1,8 @@
-namespace SistemaFinanceiro
+namespace SistemaFinanceiro.Models
 {
-    // Classe Categorias
+    // Classe Categoria
     // Representa uma categoria financeira do sistema
-    public class Categorias
+    public class Categoria
     {
         // Identificador único da categoria
         public int Id { get; set; }
@@ -12,29 +12,24 @@ namespace SistemaFinanceiro
 
 #pragma warning disable CS8618
         // Construtor vazio
-        // Necessário para desserialização de dados (ex.: JSON)
-        // O aviso é desativado porque as propriedades são inicializadas posteriormente
-        public Categorias() { }
-#pragma warning restore CS8618
+        // Necessário para desserialização (ex.: JSON)
+        public Categoria() { }
+
 
         // Construtor com parâmetros
-        // Permite criar uma categoria já com os dados definidos
-        public Categorias(int id, string nome)
+        public Categoria(int id, string nome)
         {
-            Id = id;     // Atribui o identificador da categoria
-            Nome = nome; // Atribui o nome da categoria
+            Id = id;
+            Nome = nome;
         }
 
-        // Método de validação
-        // Verifica se o nome da categoria é válido
+        // Validação do nome da categoria
         public bool Validar()
         {
-            // Retorna true se o nome não for nulo, vazio ou apenas espaços
             return !string.IsNullOrWhiteSpace(Nome);
         }
 
-        // Método ToString sobrescrito
-        // Define como a categoria será representada em formato de texto
+        // Representação textual da categoria
         public override string ToString()
         {
             return $"{Id} - {Nome}";

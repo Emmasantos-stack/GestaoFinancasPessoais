@@ -1,13 +1,16 @@
-// =========================
+// ======================================================
 // CATEGORIAS.JS
-// Gestão de categorias via API REST
-// =========================
+// Responsável pela gestão de categorias através da API
+// ======================================================
 
-// ENDPOINTS (podes ajustar quando tiveres backend real)
+// Endereço base da API para categorias
+// (Pode ser alterado quando o backend estiver completo)
 const API_URL = "/api/categorias";
 
 /**
- * Carrega todas as categorias ao iniciar a página.
+ * Executado automaticamente quando a página é carregada.
+ * - Carrega as categorias existentes
+ * - Associa o evento submit ao formulário
  */
 document.addEventListener("DOMContentLoaded", () => {
     carregarCategorias();
@@ -18,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 /**
- * Vai buscar as categorias ao servidor (mock por agora).
+ * Obtém a lista de categorias a partir do servidor
+ * e envia os dados para serem apresentados na tabela.
  */
 async function carregarCategorias() {
     try {
@@ -33,14 +37,16 @@ async function carregarCategorias() {
 
 
 /**
- * Cria uma nova categoria e envia para o backend.
+ * Cria uma nova categoria com base nos dados introduzidos
+ * no formulário e envia para o backend.
  */
 async function criarCategoria(event) {
-    event.preventDefault();
+    event.preventDefault(); // impede o reload da página
 
     const nomeInput = document.getElementById("nomeCategoria");
     const nome = nomeInput.value.trim();
 
+    // Validação simples
     if (nome === "") {
         mostrarMensagem("O nome não pode estar vazio.", true);
         return;
@@ -58,10 +64,12 @@ async function criarCategoria(event) {
             return;
         }
 
+        // Limpa o campo após sucesso
         nomeInput.value = "";
         mostrarMensagem("Categoria criada com sucesso!");
 
-        carregarCategorias(); // recarrega tabela
+        // Atualiza a tabela
+        carregarCategorias();
     } catch (error) {
         console.error(error);
         mostrarMensagem("Erro ao comunicar com o servidor.", true);
@@ -70,21 +78,25 @@ async function criarCategoria(event) {
 
 
 /**
- * Remove uma categoria pelo ID.
+ * Remove uma categoria com base no seu identificador (ID).
  */
 async function eliminarCategoria(id) {
-    const confirmar = confirm("Tem a certeza que deseja remover esta categoria?");
+    const confirmar = confirm(
+        "Tem a certeza que deseja remover esta categoria?"
+    );
     if (!confirmar) return;
 
     try {
-        const response = await fetch(`${API_URL}/${id}`, { method: "DELETE" });
+        const response = await fetch(`${API_URL}/${id}`, {
+            method: "DELETE"
+        });
 
         if (!response.ok) {
             mostrarMensagem("Erro ao eliminar categoria.", true);
             return;
         }
 
-        mostrarMensagem("Categoria removida.");
+        mostrarMensagem("Categoria removida com sucesso.");
         carregarCategorias();
     } catch (error) {
         console.error(error);
@@ -93,19 +105,22 @@ async function eliminarCategoria(id) {
 
 
 /**
- * Mostra mensagem de feedback ao utilizador.
+ * Mostra mensagens de sucesso ou erro ao utilizador.
  */
 function mostrarMensagem(texto, erro = false) {
     const mensagem = document.getElementById("categoriaMensagem");
     mensagem.textContent = texto;
     mensagem.style.color = erro ? "red" : "green";
 
-    setTimeout(() => (mensagem.textContent = ""), 3000);
+    // Remove a mensagem após alguns segundos
+    setTimeout(() => {
+        mensagem.textContent = "";
+    }, 3000);
 }
 
 
 /**
- * Renderiza a tabela com todas as categorias.
+ * Constrói dinamicamente a tabela HTML com as categorias.
  */
 function renderTabela(lista) {
     const tabela = document.getElementById("tabelaCategorias");
@@ -119,8 +134,14 @@ function renderTabela(lista) {
             <td class="table__cell">${cat.id}</td>
             <td class="table__cell">${cat.nome}</td>
             <td class="table__cell table__cell--acoes">
-                <button class="button button--small" onclick="editarCategoria(${cat.id})">Editar</button>
-                <button class="button button--danger" onclick="eliminarCategoria(${cat.id})">Eliminar</button>
+                <button class="button button--small"
+                        onclick="editarCategoria(${cat.id})">
+                    Editar
+                </button>
+                <button class="button button--danger"
+                        onclick="eliminarCategoria(${cat.id})">
+                    Eliminar
+                </button>
             </td>
         `;
 
@@ -130,7 +151,8 @@ function renderTabela(lista) {
 
 
 /**
- * Função placeholder — para ser feita depois.
+ * Funcionalidade de edição ainda não implementada.
+ * Fica como trabalho futuro.
  */
 function editarCategoria(id) {
     alert("Funcionalidade de edição ainda não implementada. (TODO)");

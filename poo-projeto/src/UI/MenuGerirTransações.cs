@@ -12,21 +12,21 @@ namespace SistemaFinanceiro.UI
         // Serviço que contém a lógica de negócio das transações
         private readonly GerirTransacoes _gerirTransacoes;
 
-        // Serviço responsável pela gestão das categorias
-        private readonly GerirCategorias _gerirCategorias;
+        // Serviço responsável pela gestão das Categoria
+        private readonly GerirCategoria _gerirCategoria;
 
 
         // Construtor do menu
         // Recebe os serviços por injeção de dependências
         public MenuGerirTransacoes(
             GerirTransacoes gerirTransacoes,
-            GerirCategorias gerirCategorias)
+            GerirCategoria gerirCategoria)
         {
             // Guarda o serviço de transações
             _gerirTransacoes = gerirTransacoes;
 
-            // Guarda o serviço de categorias
-            _gerirCategorias = gerirCategorias;
+            // Guarda o serviço de Categoria
+            _gerirCategoria = gerirCategoria;
         }
 
 
@@ -72,15 +72,15 @@ namespace SistemaFinanceiro.UI
             // Obtém todas as transações do sistema
             var transacoes = _gerirTransacoes.ObterTransacoes();
 
-            // Obtém todas as categorias existentes
-            var categorias = _gerirCategorias.ObterCategorias();
+            // Obtém todas as Categoria existentes
+            var Categoria = _gerirCategoria.ObterCategoria();
 
             // Mostra o cabeçalho da lista
             foreach (var t in transacoes)
             {
                 // Procura o nome da categoria associada à transação
                 // Se não existir, mostra "Sem categoria"
-                var cat = categorias.Find(c => c.Id == t.CategoriaId)?.Nome ?? "Sem categoria";
+                var cat = Categoria.Find(c => c.Id == t.CategoriaId)?.Nome ?? "Sem categoria";
 
                 // Mostra os dados da transação no ecrã
                 Console.WriteLine($"{t.Id} | {t.Data:dd/MM/yyyy} | {t.Tipo} | {t.Descricao} | {t.Valor}€ | {cat}");

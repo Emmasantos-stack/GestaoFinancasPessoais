@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Definição do conjunto de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Configuração para layout responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Gerir Categoria</title>
+
+    <!-- Ligação ao ficheiro CSS principal -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page page--Categoria">
+
+    <!-- =====================================================
+         HEADER
+         Contém o título da página e link para voltar ao menu
+         ===================================================== -->
+    <header class="header">
+        <h1 class="header__title">Gerir Categoria</h1>
+        <a href="index.html" class="header__back">← Voltar ao Início</a>
+    </header>
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+         ===================================================== -->
+    <main class="main">
+
+        <!-- -------------------------------------------------
+             FORMULÁRIO PARA CRIAR NOVA CATEGORIA
+             ------------------------------------------------- -->
+        <section class="section section--form">
+            <h2 class="section__title">Criar Nova Categoria</h2>
+
+            <!-- Formulário controlado por JavaScript -->
+            <form id="formCategoria" class="form form--categoria">
+
+                <!-- Campo para o nome da categoria -->
+                <div class="form__group">
+                    <label for="nomeCategoria" class="form__label">Nome:</label>
+                    <input
+                        type="text"
+                        id="nomeCategoria"
+                        class="form__input"
+                        required
+                    >
+                </div>
+
+                <!-- Botão de submissão -->
+                <button type="submit" class="button button--primary">
+                    Adicionar
+                </button>
+            </form>
+
+            <!-- Mensagens de erro ou sucesso -->
+            <p id="categoriaMensagem" class="message"></p>
+        </section>
+
+        <!-- -------------------------------------------------
+             LISTAGEM DE Categoria EXISTENTES
+             ------------------------------------------------- -->
+        <section class="section section--lista">
+            <h2 class="section__title">Categoria Existentes</h2>
+
+            <!-- Tabela para apresentar Categoria -->
+            <table class="table table--Categoria">
+
+                <!-- Cabeçalho da tabela -->
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__header">ID</th>
+                        <th class="table__header">Nome</th>
+                        <th class="table__header">Ações</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo da tabela preenchido dinamicamente via JS -->
+                <tbody id="tabelaCategoria" class="table__body">
+                    <!-- Conteúdo gerado pelo ficheiro Categoria.js -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- =====================================================
+         RODAPÉ
+         ===================================================== -->
+    <footer class="footer">
+        <p class="footer__text">Projeto POO — Gestão de Finanças</p>
+    </footer>
+
+    <!-- Script responsável pela lógica da página -->
+    <script src="categoria.js"></script>
+</body>
+</html>

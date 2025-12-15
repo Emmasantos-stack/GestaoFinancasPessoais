@@ -1,40 +1,77 @@
 <!DOCTYPE html>
+<!--
+    Página de Login do sistema de Gestão de Finanças Pessoais. Permite que o utilizador introduza email e password para autenticação.
+-->
 <html lang="pt">
 <head>
+  <!-- Codificação de caracteres -->
   <meta charset="utf-8" />
+
+  <!-- Responsividade para diferentes dispositivos -->
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- Título apresentado no separador do navegador -->
   <title>Login — Gestão Finanças</title>
+
+  <!-- Ligação ao ficheiro de estilos CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="page page--login">
+
+  <!-- ================= CONTEÚDO PRINCIPAL ================= -->
   <main class="main main--center">
+
+    <!-- Cartão central do login -->
     <section class="card card--login">
+
+      <!-- Título da página -->
       <h1 class="card__title">Entrar</h1>
 
-      <form id="formLogin" class="form form--login" aria-label="Formulário de login">
+      <!-- ================= FORMULÁRIO DE LOGIN ================= -->
+      <!-- Formulário para autenticação do utilizador -->
+      <form id="formLogin"
+            class="form form--login"
+            aria-label="Formulário de login">
+
+        <!-- Campo de email -->
         <div class="form__group">
           <label for="email" class="form__label">Email</label>
-          <input id="email" type="email" class="form__input" required />
+          <input id="email"
+                 type="email"
+                 class="form__input"
+                 required />
         </div>
 
+        <!-- Campo de password -->
         <div class="form__group">
           <label for="password" class="form__label">Password</label>
-          <input id="password" type="password" class="form__input" required minlength="4" />
+          <input id="password"
+                 type="password"
+                 class="form__input"
+                 required
+                 minlength="4" />
         </div>
 
-        <button class="button button--primary" type="submit">Entrar</button>
+        <!-- Botão de submissão -->
+        <button class="button button--primary" type="submit">
+          Entrar
+        </button>
       </form>
 
+      <!-- Mensagem de feedback do login (sucesso ou erro) -->
       <p id="loginMsg" class="message message--info"></p>
 
+      <!-- Nota para utilizadores sem conta -->
       <p class="card__note">
-        Se ainda não tem conta, crie uma em <a href="utilizadores.html">Gerir Utilizadores</a>.
+        Se ainda não tem conta, crie uma em
+        <a href="utilizadores.html">Gerir Utilizadores</a>.
       </p>
     </section>
   </main>
 
-  <script src="js/session.js"></script>
-  <script src="js/login.js"></script>
+  <!-- Script JavaScript responsável pela lógica de login -->
+  <script src="login.js"></script>
+
 </body>
 </html>
-
