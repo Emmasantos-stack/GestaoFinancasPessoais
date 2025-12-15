@@ -11,7 +11,7 @@ namespace SistemaFinanceiro.Services
         private class Dados
         {
             public List<Utilizador> Utilizadores { get; set; } = new();
-            public List<Categoria> Categorias { get; set; } = new();
+            public List<Categorias> Categorias { get; set; } = new();
             public List<Transacao> Transacoes { get; set; } = new();
         }
 
@@ -20,7 +20,7 @@ namespace SistemaFinanceiro.Services
         // -------------------------------
         public static void Guardar(
             List<Utilizador> utilizadores,
-            List<Categoria> categorias,
+            List<Categorias> categorias,
             List<Transacao> transacoes)
         {
             var dados = new Dados
@@ -43,7 +43,7 @@ namespace SistemaFinanceiro.Services
         // -------------------------------
         public static void Carregar(
             out List<Utilizador> utilizadores,
-            out List<Categoria> categorias,
+            out List<Categorias> categorias,
             out List<Transacao> transacoes)
         {
             if (!File.Exists(Ficheiro))
@@ -60,6 +60,11 @@ namespace SistemaFinanceiro.Services
             utilizadores = dados?.Utilizadores ?? new();
             categorias = dados?.Categorias ?? new();
             transacoes = dados?.Transacoes ?? new();
+        }
+
+        internal static void Guarda(List<Utilizador> utilizadores, List<Categorias> categorias, List<Transacao> transacoes)
+        {
+            throw new NotImplementedException();
         }
     }
 }

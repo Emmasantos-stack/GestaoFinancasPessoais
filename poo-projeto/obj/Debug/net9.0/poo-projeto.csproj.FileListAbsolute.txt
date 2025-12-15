@@ -72,3 +72,12 @@ C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\ne
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\wuwhi16wmi-0cayrkfj36.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\tjmexcq4tq-ge28g7hw40.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\cry029jcf2-o49on757m0.gz
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfoInputs.cache
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfo.cs
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.csproj.CoreCompileInputs.cache
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.sourcelink.json
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.dll
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\refint\poo-projeto.dll
+C:\Users\anafl\Desktop\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
