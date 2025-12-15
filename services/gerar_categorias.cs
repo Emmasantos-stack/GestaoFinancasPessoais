@@ -6,11 +6,11 @@ namespace SistemaFinanceiro.Services
 {
     public class GerirCategorias
     {
-        private readonly Sistema _sistema;
+        private readonly Sistema _sistema; // Armazena referência do objeto Sistema para acessar listas e métodos globais
 
         public GerirCategorias(Sistema sistema)
         {
-            _sistema = sistema;
+            _sistema = sistema; // Recebe o Sistema por injeção e permite manipular dados centralizados
         }
 
         //Listar Categorias
@@ -18,12 +18,14 @@ namespace SistemaFinanceiro.Services
         {
             Console.WriteLine("\n====== LISTA DE CATEGORIAS ======");
 
+                    // Caso não existam categorias cadastradas
             if (_sistema.Categorias.Count == 0)
             {
                 Console.WriteLine("Nenhuma categoria registada.");
-                return;
+                return; // Sai do método
             }
 
+                 // Percorre e imprime todas as categorias existentes
             foreach (var c in _sistema.Categorias)
             {
                 Console.WriteLine($"ID: {c.Id} | Nome: {c.Nome}");
@@ -36,24 +38,27 @@ namespace SistemaFinanceiro.Services
         public void CriarCategoria()
         {
             Console.Write("\nIntroduza o nome da nova categoria: ");
-            string nome = Console.ReadLine();
+            string nome = Console.ReadLine(); // Recebe o nome informado pelo utilizador
 
+                 // Validar campo vazio ou apenas espaços
             if (string.IsNullOrWhiteSpace(nome))
             {
                 Console.WriteLine("Nome inválido!");
                 return;
             }
 
+                // Cria nova categoria no sistema
             var nova = _sistema.CriarCategoria(nome);
 
             Console.WriteLine($"Categoria criada com sucesso! (ID: {nova.Id})\n");
         }
 
-    
+            //EDITAR CATEGORIA
         public void EditarCategoria()
         {
-            ListarCategorias();
+            ListarCategorias(); // Mostra lista antes de editar
 
+            // Validação do ID inserido
             Console.Write("Introduza o ID da categoria a editar: ");
             if (!int.TryParse(Console.ReadLine(), out int id))
             {  
@@ -62,6 +67,7 @@ namespace SistemaFinanceiro.Services
                 return;
             }
 
+              // Localiza categoria com base no ID
             var categoria = _sistema.Categorias.FirstOrDefault(c => c.Id == id);
             if (categoria == null)
             {
@@ -69,22 +75,24 @@ namespace SistemaFinanceiro.Services
                 return;
             }
 
+            // Solicita novo nome
             Console.Write($"Novo nome para a categoria '{categoria.Nome}': ");
             string novoNome = Console.ReadLine();
 
+            // Verifica se o nome é válido
             if (string.IsNullOrWhiteSpace(novoNome))
             {
                 Console.WriteLine("Nome inválido!");
                 return;
             }
 
-            categoria.Nome = novoNome;
-            _sistema.GravarDados();
+            categoria.Nome = novoNome; // Atualiza o nome
+            _sistema.GravarDados(); // Guarda alteração no sistema
 
             Console.WriteLine("Categoria atualizada com sucesso!\n");
         }
 
-      
+             //REMOVER CATEGORIA
         public void RemoverCategoria()
         {
             ListarCategorias();
@@ -132,6 +140,7 @@ namespace SistemaFinanceiro.Services
                 Console.WriteLine("0 - Voltar");
                 Console.Write("Opção: ");
 
+                    // Tenta converter entrada para número
                 int.TryParse(Console.ReadLine(), out opcao);
                 Console.WriteLine();
                      // Seleção da opção

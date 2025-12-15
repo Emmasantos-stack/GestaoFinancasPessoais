@@ -51,7 +51,11 @@ namespace SistemaFinanceiro
         public Categoria Categoria { get; set; }
 
         // Construtor
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
         public Transacao(int id, string descricao, double valor, DateTime data, string tipo, Categoria categoria)
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
         {
             this.id = id;
             this.descricao = descricao;
