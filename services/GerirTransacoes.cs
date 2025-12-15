@@ -4,10 +4,13 @@ using SistemaFinanceiro.Models;
 
 namespace SistemaFinanceiro.Services
 {
+    // Esta classe é responsável por tudo o que envolve transações: criar, listar, remover e o menu para as gerir.
     public class GerirTransacoes
     {
+        // Aqui guardamos a referência ao sistema, que contém as listas: de categorias, transações e utilizadores.
         private readonly Sistema _sistema;
 
+        // O construtor recebe o sistema para podermos trabalhar com os dados dele.
         public GerirTransacoes(Sistema sistema)
         {
             _sistema = sistema;
@@ -17,18 +20,22 @@ namespace SistemaFinanceiro.Services
         public void ListarTransacoes()
         {
             Console.WriteLine("\n====== LISTA DE TRANSAÇÕES ======");
-
+            // Se não houver nenhuma transação, mostramos uma mensagem simples.
             if (_sistema.Transacoes.Count == 0)
             {
                 Console.WriteLine("Nenhuma transação registada.");
                 return;
             }
 
+            // Aqui percorremos todas as transações e mostramos os detalhes.
             foreach (var t in _sistema.Transacoes)
             {
+                // Procuramos o nome da categoria correspondente ao ID.
+                // Se não existir categoria, mostramos "Sem categoria".
                 string categoriaNome = _sistema.Categorias
                     .FirstOrDefault(c => c.Id == t.CategoriaId)?.Nome ?? "Sem categoria";
 
+                 // Apresentamos os dados da transação de forma organizada.
                 Console.WriteLine(
                     $"ID: {t.Id} | {t.Tipo} | {t.Descricao} | {t.Valor}€ | {t.Data:yyyy-MM-dd} | Categoria: {categoriaNome}"
                 );
