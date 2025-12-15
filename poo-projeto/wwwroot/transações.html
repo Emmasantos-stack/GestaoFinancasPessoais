@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <!-- Título da página que aparece no separador do navegador -->
+    <title>Gerir Transações</title>
+    <!-- Ligação ao ficheiro de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Gerir Transações</h1>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="main">
+
+        <!-- FORMULARIO -->
+        <!-- SECÇÃO DO FORMULÁRIO PARA ADICIONAR TRANSAÇÕES -->
+        <section class="section section--form">
+
+            <!-- Título da secção -->
+            <h2 class="section__title">Adicionar Transação</h2>
+
+            <!-- Formulário para criar uma nova transação -->
+            <form id="formTransacao" class="form">
+
+                <!-- Campo para inserir a descrição da transação -->
+                <div class="form__group">
+                    <label class="form__label">Descrição</label>
+                    <input type="text" id="descricao" class="form__input" required>
+                </div>
+
+                <!-- Campo para inserir o valor da transação -->
+                <div class="form__group">
+                    <label class="form__label">Valor (€)</label>
+                    <input type="number" id="valor" class="form__input" step="0.01" min="0.01" required>
+                </div>
+
+                <!-- Campo para selecionar a data da transação -->
+                <div class="form__group">
+                    <label class="form__label">Data</label>
+                    <input type="date" id="data" class="form__input" required>
+                </div>
+
+                <!-- Campo para selecionar a categoria da transação -->
+                <!-- As opções são carregadas dinamicamente pelo JavaScript -->
+                <div class="form__group">
+                    <label class="form__label">Categoria</label>
+                    <select id="categoria" class="form__input" required></select>
+                </div>
+
+                 <!-- Botão para submeter o formulário -->
+                <button class="button" type="submit">Adicionar</button>
+            </form>
+
+            <!-- Mensagem de sucesso ou erro mostrada ao utilizador -->
+            <p id="transacaoMensagem" class="form__message"></p>
+        </section>
+
+
+        <!-- TABELA -->
+        <!-- SECÇÃO DA TABELA DE TRANSACOES -->
+        <section class="section section--table">
+            <!-- Título da tabela -->
+            <h2 class="section__title">Lista de Transações</h2>
+
+            <!-- Tabela onde as transações são apresentadas -->
+            <table class="table">
+
+                <!-- Cabeçalho da tabela -->
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__cell">ID</th>
+                        <th class="table__cell">Descrição</th>
+                        <th class="table__cell">Valor (€)</th>
+                        <th class="table__cell">Data</th>
+                        <th class="table__cell">Categoria</th>
+                        <th class="table__cell">Ações</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo da tabela -->
+                <!-- As linhas são inseridas dinamicamente pelo JavaScript -->
+                <tbody id="tabelaTransacoes" class="table__body"></tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- Importa o ficheiro JavaScript responsável pela lógica das transações -->
+    <script src="transacoes.js"></script>
+</body>
+</html>
