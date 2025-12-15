@@ -5,6 +5,7 @@ using SistemaFinanceiro.Models;
 
 namespace SistemaFinanceiro.Services
 {
+    // Serviço responsável pela gestão de categorias
     public class GerirCategoria
     {
         private readonly Sistema _sistema;
@@ -14,23 +15,23 @@ namespace SistemaFinanceiro.Services
             _sistema = sistema;
         }
 
-        public List<Categoria> ObterCategoria()
+        public List<Categoria> ObterCategorias()
         {
-            return _sistema.Categoria;
+            return _sistema.Categorias;
         }
 
         public Categoria CriarCategoria(string nome)
         {
-            int novoId = _sistema.Categoria.Count > 0
-                ? _sistema.Categoria.Max(c => c.Id) + 1
+            if (string.IsNullOrWhiteSpace(nome))
+                throw new Exception("Nome de categoria inválido!");
+
+            int novoId = _sistema.Categorias.Count > 0
+                ? _sistema.Categorias.Max(c => c.Id) + 1
                 : 1;
 
             var categoria = new Categoria(novoId, nome);
 
-            if (!categoria.Validar())
-                throw new Exception("Nome de categoria inválido!");
-
-            _sistema.Categoria.Add(categoria);
+            _sistema.Categorias.Add(categoria);
             _sistema.SalvarTudo();
 
             return categoria;
@@ -38,7 +39,7 @@ namespace SistemaFinanceiro.Services
 
         public bool EditarCategoria(int id, string novoNome)
         {
-            var categoria = _sistema.Categoria.FirstOrDefault(c => c.Id == id);
+            var categoria = _sistema.Categorias.FirstOrDefault(c => c.Id == id);
             if (categoria == null)
                 return false;
 
@@ -49,11 +50,11 @@ namespace SistemaFinanceiro.Services
 
         public bool RemoverCategoria(int id)
         {
-            var categoria = _sistema.Categoria.FirstOrDefault(c => c.Id == id);
+            var categoria = _sistema.Categorias.FirstOrDefault(c => c.Id == id);
             if (categoria == null)
                 return false;
 
-            _sistema.Categoria.Remove(categoria);
+            _sistema.Categorias.Remove(categoria);
             _sistema.SalvarTudo();
             return true;
         }

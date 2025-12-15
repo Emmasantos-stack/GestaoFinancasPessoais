@@ -33,9 +33,9 @@ namespace SistemaFinanceiro.Services
             );
 
             // Atribui os dados carregados às propriedades da classe
-            Utilizadores = utilizadores;
-            Categoria = Categoria;
-            Transacoes = transacoes;
+            Utilizadores = utilizadores ?? new List<Utilizador>();
+            Categorias = categorias ?? new List<Categoria>();
+            Transacoes = transacoes ?? new List<Transacao>();
         }
 
         // Método responsável por guardar todos os dados do sistema
