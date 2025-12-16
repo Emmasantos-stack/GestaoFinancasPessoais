@@ -6,14 +6,16 @@
       "Email": "dp9069501@gmail.com",
       "Password": "1234",
       "Perfil": "Administrador"
-    }
-  ],
-  "Categorias": [
+    },
     {
-      "Id": 1,
-      "Nome": "Ns"
+      "Id": 2,
+      "Nome": "ana",
+      "Email": "ana@gmail.com",
+      "Password": "asd",
+      "Perfil": "a"
     }
   ],
+  "Categoria": null,
   "Transacoes": [
     {
       "Id": 1,

@@ -5,7 +5,7 @@ using SistemaFinanceiro.Models;
 
 namespace SistemaFinanceiro.Services
 {
-    public class GerirCategoria
+ public class GerirCategoria
     {
         private readonly Sistema _sistema;
 
