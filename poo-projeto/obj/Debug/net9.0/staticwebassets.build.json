@@ -1,0 +1,3762 @@
+{
+  "Version": 1,
+  "Hash": "R+pbpgzoPXqDtpqhiTW89Dv5jS8IeJNFjfFdGLExnL0=",
+  "Source": "poo-projeto",
+  "BasePath": "_content/poo-projeto",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "poo-projeto\\wwwroot",
+      "Source": "poo-projeto",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-4eblu0g0yn.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "css/style#[.{fingerprint=4eblu0g0yn}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cfq461knkp",
+      "Integrity": "ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-7lmcfy6gd4.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "categoria#[.{fingerprint=7lmcfy6gd4}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dsxmlkapyr",
+      "Integrity": "jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-2rtx7t4t54.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "login#[.{fingerprint=2rtx7t4t54}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3znn2rbnv2",
+      "Integrity": "H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\abbrr8flma-9pc8dta2fz.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "transações#[.{fingerprint=9pc8dta2fz}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2chxmyocfi",
+      "Integrity": "/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-7zbktb2606.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "session#[.{fingerprint=7zbktb2606}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rxruqbcfca",
+      "Integrity": "ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cry029jcf2-o49on757m0.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "utilizadores#[.{fingerprint=o49on757m0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9pp6w307zm",
+      "Integrity": "nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-kbccffv1cx.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "categoria#[.{fingerprint=kbccffv1cx}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "c9e3ji4uj7",
+      "Integrity": "EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-ywhux5prl8.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "login#[.{fingerprint=ywhux5prl8}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hsyrw12vvu",
+      "Integrity": "H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-ge6odwxu8q.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "index#[.{fingerprint=ge6odwxu8q}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d5g59y5f5u",
+      "Integrity": "AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\tjmexcq4tq-ge28g7hw40.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "utilizadores#[.{fingerprint=ge28g7hw40}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0yyoj7k1x5",
+      "Integrity": "GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ylu7k5e8pt-5dscpra9k1.gz",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "transações#[.{fingerprint=5dscpra9k1}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m59zqj1h0f",
+      "Integrity": "Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "categoria#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lmcfy6gd4",
+      "Integrity": "pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\categoria.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "categoria#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kbccffv1cx",
+      "Integrity": "oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\categoria.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4eblu0g0yn",
+      "Integrity": "7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ge6odwxu8q",
+      "Integrity": "mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ywhux5prl8",
+      "Integrity": "zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2rtx7t4t54",
+      "Integrity": "3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "session#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7zbktb2606",
+      "Integrity": "o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\session.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "transações#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5dscpra9k1",
+      "Integrity": "mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\transações.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "transações#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9pc8dta2fz",
+      "Integrity": "syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\transações.js"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "utilizadores#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ge28g7hw40",
+      "Integrity": "KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\utilizadores.html"
+    },
+    {
+      "Identity": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js",
+      "SourceId": "poo-projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "BasePath": "_content/poo-projeto",
+      "RelativePath": "utilizadores#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o49on757m0",
+      "Integrity": "yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\utilizadores.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "categoria.7lmcfy6gd4.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-7lmcfy6gd4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000855431993"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lmcfy6gd4"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.7lmcfy6gd4.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lmcfy6gd4"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.7lmcfy6gd4.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-7lmcfy6gd4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lmcfy6gd4"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-7lmcfy6gd4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000855431993"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-7lmcfy6gd4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTmY+p9ZP/kgqv9x65PedZT5yvQmVwlnGbYFOa1Jc8s="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-kbccffv1cx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000661813369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-kbccffv1cx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.kbccffv1cx.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-kbccffv1cx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000661813369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbccffv1cx"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.kbccffv1cx.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbccffv1cx"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI="
+        }
+      ]
+    },
+    {
+      "Route": "categoria.kbccffv1cx.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-kbccffv1cx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbccffv1cx"
+        },
+        {
+          "Name": "label",
+          "Value": "categoria.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFpgXh5EP8uXruEy/1Vyf4R8afrR0wySSrR4U+0Sw5c="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.4eblu0g0yn.css",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-4eblu0g0yn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000945179584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1057"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4eblu0g0yn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.4eblu0g0yn.css",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4eblu0g0yn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.4eblu0g0yn.css.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-4eblu0g0yn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4eblu0g0yn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-4eblu0g0yn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000945179584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1057"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-4eblu0g0yn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1057"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ODcLz+7kMvuTyfU+31nDdDYHU8xS6TYmfWBH1WbWch8="
+        }
+      ]
+    },
+    {
+      "Route": "index.ge6odwxu8q.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-ge6odwxu8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001096491228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge6odwxu8q"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4="
+        }
+      ]
+    },
+    {
+      "Route": "index.ge6odwxu8q.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge6odwxu8q"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4="
+        }
+      ]
+    },
+    {
+      "Route": "index.ge6odwxu8q.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-ge6odwxu8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge6odwxu8q"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-ge6odwxu8q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001096491228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-ge6odwxu8q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWJCUEfrhOsxgO7CBsFge13lh7sNmfyxRmh4wrkhLDQ="
+        }
+      ]
+    },
+    {
+      "Route": "login.2rtx7t4t54.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-2rtx7t4t54.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000914076782"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rtx7t4t54"
+        },
+        {
+          "Name": "label",
+          "Value": "login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts="
+        }
+      ]
+    },
+    {
+      "Route": "login.2rtx7t4t54.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rtx7t4t54"
+        },
+        {
+          "Name": "label",
+          "Value": "login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts="
+        }
+      ]
+    },
+    {
+      "Route": "login.2rtx7t4t54.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-2rtx7t4t54.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rtx7t4t54"
+        },
+        {
+          "Name": "label",
+          "Value": "login.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-ywhux5prl8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001014198783"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-ywhux5prl8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug="
+        }
+      ]
+    },
+    {
+      "Route": "login.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-2rtx7t4t54.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000914076782"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts="
+        }
+      ]
+    },
+    {
+      "Route": "login.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts="
+        }
+      ]
+    },
+    {
+      "Route": "login.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-2rtx7t4t54.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H9dnDrHm9x1J0A79tovZ3ZASii1Oj2StqKvkXKdMqPM="
+        }
+      ]
+    },
+    {
+      "Route": "login.ywhux5prl8.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-ywhux5prl8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001014198783"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywhux5prl8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os="
+        }
+      ]
+    },
+    {
+      "Route": "login.ywhux5prl8.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywhux5prl8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os="
+        }
+      ]
+    },
+    {
+      "Route": "login.ywhux5prl8.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-ywhux5prl8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ywhux5prl8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3NuPAVB+CHodE2zO8Ry0IptL6IkK48FaXlUFWAttug="
+        }
+      ]
+    },
+    {
+      "Route": "session.7zbktb2606.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-7zbktb2606.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001212121212"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zbktb2606"
+        },
+        {
+          "Name": "label",
+          "Value": "session.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM="
+        }
+      ]
+    },
+    {
+      "Route": "session.7zbktb2606.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zbktb2606"
+        },
+        {
+          "Name": "label",
+          "Value": "session.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM="
+        }
+      ]
+    },
+    {
+      "Route": "session.7zbktb2606.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-7zbktb2606.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zbktb2606"
+        },
+        {
+          "Name": "label",
+          "Value": "session.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ="
+        }
+      ]
+    },
+    {
+      "Route": "session.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-7zbktb2606.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001212121212"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM="
+        }
+      ]
+    },
+    {
+      "Route": "session.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM="
+        }
+      ]
+    },
+    {
+      "Route": "session.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-7zbktb2606.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 19:10:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ETHcox2uCPecu7VOvcUJYO8cYHzgDbaIf99VQaGEAGQ="
+        }
+      ]
+    },
+    {
+      "Route": "transações.5dscpra9k1.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ylu7k5e8pt-5dscpra9k1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000913242009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dscpra9k1"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo="
+        }
+      ]
+    },
+    {
+      "Route": "transações.5dscpra9k1.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dscpra9k1"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo="
+        }
+      ]
+    },
+    {
+      "Route": "transações.5dscpra9k1.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ylu7k5e8pt-5dscpra9k1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dscpra9k1"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ="
+        }
+      ]
+    },
+    {
+      "Route": "transações.9pc8dta2fz.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\abbrr8flma-9pc8dta2fz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000440334654"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pc8dta2fz"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0="
+        }
+      ]
+    },
+    {
+      "Route": "transações.9pc8dta2fz.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pc8dta2fz"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0="
+        }
+      ]
+    },
+    {
+      "Route": "transações.9pc8dta2fz.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\abbrr8flma-9pc8dta2fz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pc8dta2fz"
+        },
+        {
+          "Name": "label",
+          "Value": "transações.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg="
+        }
+      ]
+    },
+    {
+      "Route": "transações.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ylu7k5e8pt-5dscpra9k1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000913242009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo="
+        }
+      ]
+    },
+    {
+      "Route": "transações.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo="
+        }
+      ]
+    },
+    {
+      "Route": "transações.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ylu7k5e8pt-5dscpra9k1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gu/qVBCLUIAbifBTxEx0zKaRBl5Yh9fmBbI3Rr0NoNQ="
+        }
+      ]
+    },
+    {
+      "Route": "transações.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\abbrr8flma-9pc8dta2fz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000440334654"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0="
+        }
+      ]
+    },
+    {
+      "Route": "transações.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0="
+        }
+      ]
+    },
+    {
+      "Route": "transações.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\abbrr8flma-9pc8dta2fz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 17:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/gtvhv0cJdPNjFi+2JbLnxkPcsH6+93euo4JhmYS0Qg="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.ge28g7hw40.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\tjmexcq4tq-ge28g7hw40.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001455604076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge28g7hw40"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.ge28g7hw40.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge28g7hw40"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.ge28g7hw40.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\tjmexcq4tq-ge28g7hw40.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ge28g7hw40"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\tjmexcq4tq-ge28g7hw40.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001455604076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.html",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.html.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\tjmexcq4tq-ge28g7hw40.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GErsQJM+eDu1zbAVu4H41dRaJXNM17R77q9SoUq4wdU="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cry029jcf2-o49on757m0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000830564784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1203"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cry029jcf2-o49on757m0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.o49on757m0.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cry029jcf2-o49on757m0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000830564784"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1203"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o49on757m0"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.o49on757m0.js",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o49on757m0"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s="
+        }
+      ]
+    },
+    {
+      "Route": "utilizadores.o49on757m0.js.gz",
+      "AssetFile": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cry029jcf2-o49on757m0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 16:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o49on757m0"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizadores.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZNXzqxs9T5z40ZYUZDxVHTRZv8mlS2hM2H87ljxY3c="
+        }
+      ]
+    }
+  ]
+}
