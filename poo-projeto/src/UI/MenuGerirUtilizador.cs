@@ -3,11 +3,11 @@ using SistemaFinanceiro.Services;
 
 namespace SistemaFinanceiro.UI
 {
-    public class MenuGerirUtilizadores
+    public class MenuGerirUtilizador
     {
-        private readonly GerirUtilizadores _servico;
+        private readonly GerirUtilizador _servico;
 
-        public MenuGerirUtilizadores(GerirUtilizadores servico)
+        public MenuGerirUtilizador(GerirUtilizador servico)
         {
             _servico = servico;
         }
@@ -19,7 +19,7 @@ namespace SistemaFinanceiro.UI
             do
             {
                 Console.Clear();
-                Console.WriteLine("=== GERIR UTILIZADORES ===");
+                Console.WriteLine("=== GERIR Utilizador ===");
                 Console.WriteLine("1 - Listar");
                 Console.WriteLine("2 - Criar");
                 Console.WriteLine("3 - Remover");
@@ -50,7 +50,7 @@ namespace SistemaFinanceiro.UI
             var lista = _servico.ObterTodos();
 
             if (lista.Count == 0)
-                Console.WriteLine("Sem utilizadores.");
+                Console.WriteLine("Sem Utilizador.");
             else
                 foreach (var u in lista)
                     Console.WriteLine($"{u.Id} | {u.Nome} | {u.Email} | {u.Perfil}");
@@ -59,33 +59,35 @@ namespace SistemaFinanceiro.UI
         }
 
         private void Criar()
-        {
-            Console.Clear();
+{
+    Console.Clear();
 
-            Console.Write("Nome: ");
-            string nome = Console.ReadLine();
+    Console.Write("Nome: ");
+    string nome = Console.ReadLine() ?? "";
 
-            Console.Write("Email: ");
-            string email = Console.ReadLine();
+    Console.Write("Email: ");
+    string email = Console.ReadLine() ?? "";
 
-            Console.Write("Password: ");
-            string password = Console.ReadLine();
+    Console.Write("Password: ");
+    string password = Console.ReadLine() ?? "";
 
-            Console.Write("Perfil: ");
-            string perfil = Console.ReadLine();
+    Console.Write("Perfil (admin/user): ");
+    string perfil = Console.ReadLine() ?? "user";
+    perfil = perfil.ToLower() != "admin" ? "user" : "admin";
 
-            try
-            {
-                _servico.Criar(nome, email, password, perfil);
-                Console.WriteLine("Utilizador criado!");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+    try
+    {
+        _servico.Criar(nome, email, password, perfil);
+        Console.WriteLine("Utilizador criado com sucesso!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
 
-            Console.ReadKey();
-        }
+    Console.ReadKey();
+}
+
 
         private void Remover()
         {

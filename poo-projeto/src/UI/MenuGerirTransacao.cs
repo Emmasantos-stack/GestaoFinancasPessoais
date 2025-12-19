@@ -7,10 +7,10 @@ namespace SistemaFinanceiro.UI
 {
     // Classe responsável pelo menu de gestão de transações
     // Aqui o utilizador pode listar, criar e remover transações
-    public class MenuGerirTransacoes
+    public class MenuGerirtransacao
     {
         // Serviço que contém a lógica de negócio das transações
-        private readonly GerirTransacoes _gerirTransacoes;
+        private readonly GerirTransacao _gerirtransacao;
 
         // Serviço responsável pela gestão das Categoria
         private readonly GerirCategoria _gerirCategoria;
@@ -18,12 +18,12 @@ namespace SistemaFinanceiro.UI
 
         // Construtor do menu
         // Recebe os serviços por injeção de dependências
-        public MenuGerirTransacoes(
-            GerirTransacoes gerirTransacoes,
+        public MenuGerirtransacao(
+            GerirTransacao gerirtransacao,
             GerirCategoria gerirCategoria)
         {
             // Guarda o serviço de transações
-            _gerirTransacoes = gerirTransacoes;
+            _gerirtransacao = gerirtransacao;
 
             // Guarda o serviço de Categoria
             _gerirCategoria = gerirCategoria;
@@ -70,13 +70,13 @@ namespace SistemaFinanceiro.UI
             Console.Clear();
 
             // Obtém todas as transações do sistema
-            var transacoes = _gerirTransacoes.ObterTransacoes();
+            var transacao = _gerirtransacao.ObterTransacao();
 
             // Obtém todas as Categoria existentes
-            var Categoria = _gerirCategoria.ObterCategoria();
+            var Categoria = _gerirCategoria.ObterTodas();
 
             // Mostra o cabeçalho da lista
-            foreach (var t in transacoes)
+            foreach (var t in transacao)
             {
                 // Procura o nome da categoria associada à transação
                 // Se não existir, mostra "Sem categoria"
@@ -92,42 +92,80 @@ namespace SistemaFinanceiro.UI
 
         // Método responsável por criar uma nova transação
         private void Criar()
+{
+    Console.Clear();
+
+    // ---------------- DESCRIÇÃO ----------------
+    Console.Write("Descrição: ");
+    string desc = Console.ReadLine();
+
+    if (string.IsNullOrWhiteSpace(desc))
+    {
+        Console.WriteLine("Descrição inválida.");
+        Console.ReadKey();
+        return;
+    }
+
+    // ---------------- VALOR ----------------
+    double valor;
+    Console.Write("Valor: ");
+    while (!double.TryParse(Console.ReadLine(), out valor) || valor <= 0)
+    {
+        Console.Write("Valor inválido. Introduza um número maior que 0: ");
+    }
+
+    // ---------------- DATA ----------------
+    DateTime data;
+    Console.Write("Data (dd/MM/yyyy): ");
+    while (!DateTime.TryParseExact(
+        Console.ReadLine(),
+        "dd/MM/yyyy",
+        CultureInfo.InvariantCulture,
+        DateTimeStyles.None,
+        out data))
+    {
+        Console.Write("Data inválida. Use o formato dd/MM/yyyy: ");
+    }
+
+    // ---------------- TIPO ----------------
+    TipoTransacao tipo;
+    Console.Write("Tipo (Receita/Despesa): ");
+    while (!Enum.TryParse(Console.ReadLine(), true, out tipo))
+    {
+        Console.Write("Tipo inválido. Escreva Receita ou Despesa: ");
+    }
+
+    // ---------------- CATEGORIA ----------------
+    Console.Write("ID Categoria (ou vazio): ");
+    string catTxt = Console.ReadLine();
+
+    int? catId = null;
+    if (!string.IsNullOrWhiteSpace(catTxt))
+    {
+        if (int.TryParse(catTxt, out int parsedId))
+            catId = parsedId;
+        else
         {
-            // Limpa o ecrã
-            Console.Clear();
-
-            // Pede a descrição da transação
-            Console.Write("Descrição: ");
-            string desc = Console.ReadLine();
-
-            // Pede o valor da transação
-            Console.Write("Valor: ");
-            double valor = double.Parse(Console.ReadLine());
-
-            // Pede a data da transação no formato indicado
-            Console.Write("Data (dd/MM/yyyy): ");
-            DateTime data = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
-
-            // Pede o tipo da transação (Receita ou Despesa)
-            Console.Write("Tipo (Receita/Despesa): ");
-            TipoTransacao tipo = Enum.Parse<TipoTransacao>(Console.ReadLine(), true);
-
-            // Pede o ID da categoria (opcional)
-            Console.Write("ID Categoria (ou vazio): ");
-            string catTxt = Console.ReadLine();
-
-            // Se o campo estiver vazio, a categoria fica como null
-            int? catId = string.IsNullOrWhiteSpace(catTxt) ? null : int.Parse(catTxt);
-
-            // Cria a transação através do serviço
-            _gerirTransacoes.CriarTransacao(desc, valor, data, tipo, catId);
-
-            //Mensagem de sucesso
-            Console.WriteLine("Transação criada!");
-
-            // Aguarda uma tecla antes de voltar ao menu
+            Console.WriteLine("ID de categoria inválido.");
             Console.ReadKey();
+            return;
         }
+    }
+
+    // ---------------- CRIAR TRANSAÇÃO ----------------
+    try
+    {
+        _gerirtransacao.CriarTransacao(desc, valor, data, tipo, catId);
+        Console.WriteLine("Transação criada com sucesso!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Erro ao criar transação: {ex.Message}");
+    }
+
+    Console.ReadKey();
+}
+
 
         // Método responsável por remover uma transação existente
         private void Remover()
@@ -140,7 +178,7 @@ namespace SistemaFinanceiro.UI
             int id = int.Parse(Console.ReadLine());
 
             // Tenta remover a transação 
-            bool ok = _gerirTransacoes.RemoverTransacao(id);
+            bool ok = _gerirtransacao.RemoverTransacao(id);
 
             //Mostra resuoltado da operação
             Console.WriteLine(ok ? "Removida!" : "Não encontrada!");

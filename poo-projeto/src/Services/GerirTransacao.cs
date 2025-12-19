@@ -6,20 +6,20 @@ using SistemaFinanceiro.Models;
 namespace SistemaFinanceiro.Services
 {
     // Classe responsável por gerir todas as operações relacionadas com transações
-    public class GerirTransacoes
+    public class GerirTransacao
     {
         // Referência ao sistema principal onde os dados estão guardados
         private readonly Sistema _sistema;
 
         // Construtor que recebe o sistema principal por injeção de dependência
-        public GerirTransacoes(Sistema sistema)
+        public GerirTransacao(Sistema sistema)
         {
             // Guarda a referência para ser usada nos métodos da classe
             _sistema = sistema;
         }
 
         // Método que devolve a lista completa de transações existentes
-        public List<Transacao> ObterTransacoes() => _sistema.Transacoes;
+        public List<Transacao> ObterTransacao() => _sistema.Transacao;
 
         // Método responsável por criar uma nova transação
         public Transacao CriarTransacao(string desc, double valor, DateTime data, TipoTransacao tipo, int? catId)
@@ -27,13 +27,13 @@ namespace SistemaFinanceiro.Services
             // Define o ID automaticamente
             // Se já existirem transações, usa o maior ID + 1
             // Caso contrário, começa com ID = 1
-            int id = _sistema.Transacoes.Any() ? _sistema.Transacoes.Max(t => t.Id) + 1 : 1;
+            int id = _sistema.Transacao.Any() ? _sistema.Transacao.Max(t => t.Id) + 1 : 1;
             
             // Cria um novo objeto Transacao com os dados recebidos
             var t = new Transacao(id, desc, valor, data, tipo, catId);
             
             // Adiciona a transação à lista do sistema
-            _sistema.Transacoes.Add(t);
+            _sistema.Transacao.Add(t);
            
            // Guarda todas as alterações no ficheiro de persistência
             _sistema.SalvarTudo();
@@ -46,13 +46,13 @@ namespace SistemaFinanceiro.Services
         public bool RemoverTransacao(int id)
         {
             // Procura a transação com o ID indicado
-            var t = _sistema.Transacoes.FirstOrDefault(x => x.Id == id);
+            var t = _sistema.Transacao.FirstOrDefault(x => x.Id == id);
             
             // Se não existir, devolve false
             if (t == null) return false;
 
             // Remove a transação da lista
-            _sistema.Transacoes.Remove(t);
+            _sistema.Transacao.Remove(t);
 
             // Guarda as alterações
             _sistema.SalvarTudo();
@@ -65,10 +65,10 @@ namespace SistemaFinanceiro.Services
         public double ObterSaldoAtual()
         {
             // Soma todos os valores das transações do tipo Receita
-            var r = _sistema.Transacoes.Where(t => t.Tipo == TipoTransacao.Receita).Sum(t => t.Valor);
+            var r = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Receita).Sum(t => t.Valor);
             
             // Soma todos os valores das transações do tipo Despesa
-            var d = _sistema.Transacoes.Where(t => t.Tipo == TipoTransacao.Despesa).Sum(t => t.Valor);
+            var d = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Despesa).Sum(t => t.Valor);
             
             // O saldo é a diferença entre receitas e despesas
             return r - d;
@@ -84,7 +84,7 @@ namespace SistemaFinanceiro.Services
        int? categoriaId)
 {
     // Procura a transação pelo ID
-    var t = _sistema.Transacoes.FirstOrDefault(x => x.Id == id);
+    var t = _sistema.Transacao.FirstOrDefault(x => x.Id == id);
 
     // Se não existir, devolve false
     if (t == null)

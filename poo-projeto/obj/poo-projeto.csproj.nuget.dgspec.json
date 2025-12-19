@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj": {}
+    "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj": {
+    "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+        "projectUniqueName": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
         "projectName": "poo-projeto",
-        "projectPath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
-        "packagesPath": "C:\\Users\\anafl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\",
+        "projectPath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
+        "packagesPath": "C:\\Users\\dp906\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\anafl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dp906\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -25,41 +25,41 @@ namespace SistemaFinanceiro
     
     public class Persistencia
     {
-        private List<Transacao> transacoes;
+        private List<Transacao> Transacao;
 
         public Persistencia()
         {
-            transacoes = new List<Transacao>();
+            Transacao = new List<Transacao>();
 
             // Transações exemplo
-            transacoes.Add(new Transacao("Venda produto", 200, "Receita"));
-            transacoes.Add(new Transacao("Compra material", 50, "Despesa"));
-            transacoes.Add(new Transacao("Serviço prestado", 150, "Receita"));
-            transacoes.Add(new Transacao("Conta de luz", 75, "Despesa"));
+            Transacao.Add(new Transacao("Venda produto", 200, "Receita"));
+            Transacao.Add(new Transacao("Compra material", 50, "Despesa"));
+            Transacao.Add(new Transacao("Serviço prestado", 150, "Receita"));
+            Transacao.Add(new Transacao("Conta de luz", 75, "Despesa"));
         }
 
         
-        public List<Transacao> ObterTransacoes(string periodo)
+        public List<Transacao> ObterTransacao(string periodo)
         {
             
-            return transacoes;
+            return Transacao;
         }
     }
 
     
     public class Relatorio
     {
-        private List<Transacao> transacoes;
+        private List<Transacao> Transacao;
 
-        public Relatorio(List<Transacao> transacoes)
+        public Relatorio(List<Transacao> Transacao)
         {
-            this.transacoes = transacoes;
+            this.Transacao = Transacao;
         }
 
         public double CalcularTotalReceitas()
         {
             double total = 0;
-            foreach (var t in transacoes)
+            foreach (var t in Transacao)
             {
                 if (t.GetTipo() == "Receita")
                     total += t.GetValor();
@@ -70,7 +70,7 @@ namespace SistemaFinanceiro
         public double CalcularTotalDespesas()
         {
             double total = 0;
-            foreach (var t in transacoes)
+            foreach (var t in Transacao)
             {
                 if (t.GetTipo() == "Despesa")
                     total += t.GetValor();
@@ -87,7 +87,7 @@ namespace SistemaFinanceiro
         {
             Console.WriteLine("=== Relatório Financeiro ===");
             Console.WriteLine("Transações:");
-            foreach (var t in transacoes)
+            foreach (var t in Transacao)
             {
                 Console.WriteLine($"{t.GetTipo()}: {t.GetDescricao()} | Valor: {t.GetValor()}");
             }
@@ -110,10 +110,10 @@ namespace SistemaFinanceiro
             string periodo = Console.ReadLine();
 
             
-            List<Transacao> transacoesPeriodo = persistencia.ObterTransacoes(periodo);
+            List<Transacao> TransacaoPeriodo = persistencia.ObterTransacao(periodo);
 
             
-            Relatorio relatorio = new Relatorio(transacoesPeriodo);
+            Relatorio relatorio = new Relatorio(TransacaoPeriodo);
 
             
             relatorio.GerarRelatorio();

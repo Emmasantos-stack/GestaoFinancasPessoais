@@ -10,6 +10,10 @@
 
     <header class="header">
         <h1 class="header__title">Gerir Utilizadores</h1>
+        <button class="button button--logout" onclick="logout()">
+    Logout
+</button>
+
     </header>
 
     <main class="main">
@@ -64,12 +68,15 @@
                     </tr>
                 </thead>
 
-                <tbody id="tabelaUtilizadores" class="table__body"></tbody>
+                <tbody id="tabelaUtilizador" class="table__body"></tbody>
             </table>
         </section>
 
     </main>
+<script src="session.js"></script>
 
-    <script src="utilizadores.js"></script>
+    <!-- Logout -->
+    <script src="logout.js"></script>
+    <script src="utilizador.js"></script>
 </body>
 </html>

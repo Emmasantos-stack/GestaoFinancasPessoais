@@ -1,26 +1,34 @@
 // ---------------------------------------------------------
-// Responsável por tratar o login do utilizador no sistema. Comunica com a API para validar email e password. Guarda os dados da sessão após login bem-sucedido.
+// login.js
+// Responsável por tratar o login do utilizador
 // ---------------------------------------------------------
 
-// Aguarda que o HTML esteja totalmente carregado
 document.addEventListener("DOMContentLoaded", () => {
 
-  // Obtém o formulário de login
   const form = document.getElementById("formLogin");
-
-  // Elemento onde serão mostradas mensagens ao utilizador
   const msg = document.getElementById("loginMsg");
 
-  // Evento acionado quando o utilizador submete o formulário
+  if (!form || !msg) {
+    console.error("Elementos do login não encontrados");
+    return;
+  }
+
+  // Se já estiver autenticado, vai direto para o index
+  if (window.Session && Session.getToken()) {
+    window.location.href = "index.html";
+    return;
+  }
+
   form.addEventListener("submit", async (e) => {
-    e.preventDefault(); // Evita o comportamento padrão do formulário
-    msg.textContent = ""; // Limpa mensagens anteriores
+    e.preventDefault();
+    msg.textContent = "";
 
-    // Obtém os valores introduzidos pelo utilizador
-    const email = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value;
+    const emailInput = document.getElementById("email");
+    const passwordInput = document.getElementById("password");
 
-    // Validação básica dos campos
+    const email = emailInput?.value.trim();
+    const password = passwordInput?.value;
+
     if (!email || !password) {
       msg.textContent = "Preencha email e password.";
       msg.style.color = "red";
@@ -28,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      // Pedido à API para autenticação
       const res = await fetch("/api/login", {
         method: "POST",
         headers: {
@@ -37,45 +44,35 @@ document.addEventListener("DOMContentLoaded", () => {
         body: JSON.stringify({ email, password })
       });
 
-      // Caso as credenciais estejam erradas
       if (res.status === 401) {
         msg.textContent = "Credenciais inválidas.";
         msg.style.color = "red";
         return;
       }
 
-      // Outros erros do servidor
       if (!res.ok) {
+        const text = await res.text();
+        console.error("Erro servidor:", text);
         msg.textContent = "Erro no servidor.";
         msg.style.color = "red";
         return;
       }
 
-      // Conversão da resposta para JSON
       const data = await res.json();
 
-      // Estrutura esperada:
-      // {
-      //   token: "...",
-      //   user: { id, nome, email, perfil }
-      // }
+      // Guarda sessão
+      Session.setToken(data.token);
+      Session.setUser(data.user);
 
-      // Guarda o token e os dados do utilizador na sessão
-      window.Session.setToken(data.token);
-      window.Session.setUser(data.user);
-
-      // Mensagem de sucesso
       msg.textContent = "Login bem-sucedido. A redirecionar...";
       msg.style.color = "green";
 
-      // Redireciona para a página principal após pequeno atraso
       setTimeout(() => {
-        window.location.href = "transacoes.html";
-      }, 700);
+        window.location.href = "index.html";
+      }, 500);
 
     } catch (err) {
-      // Erro de ligação à API (ex: servidor desligado)
-      console.error(err);
+      console.error("Erro fetch:", err);
       msg.textContent = "Erro de rede.";
       msg.style.color = "red";
     }

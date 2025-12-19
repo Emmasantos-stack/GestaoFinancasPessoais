@@ -1,14 +1,28 @@
 // =============================
-// UTILIZADORES.JS
-// Gestão de utilizadores via API REST
+// UTILIZADOR.JS
+// Gestão de utilizador via API REST (autenticada)
 // =============================
+const user = Session.getUser();
+if (!user) {
+    window.location.href = "login.html";
+}
 
-const API_UTILIZADORES = "/api/utilizadores";
+const API_UTILIZADOR = "/api/utilizador";
 
 document.addEventListener("DOMContentLoaded", () => {
-    carregarUtilizadores();
 
-    document.getElementById("formUtilizador")
+    // (Opcional mas recomendado) restringir a admins
+    const user = Session.getUser();
+    if (user && user.perfil !== "Admin") {
+        alert("Acesso restrito a administradores.");
+        window.location.href = "index.html";
+        return;
+    }
+
+    carregarUtilizador();
+
+    document
+        .getElementById("formUtilizador")
         .addEventListener("submit", criarUtilizador);
 });
 
@@ -32,7 +46,7 @@ async function criarUtilizador(event) {
     const novoUser = { nome, email, password, perfil };
 
     try {
-        const response = await fetch(API_UTILIZADORES, {
+        const response = await Session.authFetch(API_UTILIZADOR, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(novoUser)
@@ -44,9 +58,8 @@ async function criarUtilizador(event) {
         }
 
         mostrarMensagem("Utilizador criado com sucesso!");
-
         document.getElementById("formUtilizador").reset();
-        carregarUtilizadores();
+        carregarUtilizador();
 
     } catch (err) {
         console.error(err);
@@ -55,19 +68,17 @@ async function criarUtilizador(event) {
 }
 
 
-
 // =============================
-// CARREGAR UTILIZADORES
+// CARREGAR UTILIZADOR
 // =============================
-async function carregarUtilizadores() {
+async function carregarUtilizador() {
     try {
-        const response = await fetch(API_UTILIZADORES);
-        const utilizadores = await response.json();
-
-        renderTabela(utilizadores);
+        const response = await Session.authFetch(API_UTILIZADOR);
+        const utilizador = await response.json();
+        renderTabela(utilizador);
 
     } catch (err) {
-        console.error("Erro ao carregar utilizadores:", err);
+        console.error("Erro ao carregar utilizador:", err);
     }
 }
 
@@ -76,10 +87,13 @@ async function carregarUtilizadores() {
 // ELIMINAR UTILIZADOR
 // =============================
 async function eliminarUtilizador(id) {
-    if (!confirm("Tem a certeza que deseja eliminar este utilizador?")) return;
+    if (!confirm("Tem a certeza que deseja eliminar este utilizador?"))
+        return;
 
     try {
-        const response = await fetch(`${API_UTILIZADORES}/${id}`, { method: "DELETE" });
+        const response = await Session.authFetch(`${API_UTILIZADOR}/${id}`, {
+            method: "DELETE"
+        });
 
         if (!response.ok) {
             mostrarMensagem("Erro ao eliminar utilizador.", true);
@@ -87,7 +101,7 @@ async function eliminarUtilizador(id) {
         }
 
         mostrarMensagem("Utilizador removido.");
-        carregarUtilizadores();
+        carregarUtilizador();
 
     } catch (err) {
         console.error(err);
@@ -99,7 +113,7 @@ async function eliminarUtilizador(id) {
 // RENDERIZAR TABELA
 // =============================
 function renderTabela(lista) {
-    const tabela = document.getElementById("tabelaUtilizadores");
+    const tabela = document.getElementById("tabelaUtilizador");
     tabela.innerHTML = "";
 
     lista.forEach(u => {
@@ -111,10 +125,15 @@ function renderTabela(lista) {
             <td class="table__cell">${u.nome}</td>
             <td class="table__cell">${u.email}</td>
             <td class="table__cell">${u.perfil}</td>
-
             <td class="table__cell table__cell--acoes">
-                <button class="button button--small" onclick="editarUtilizador(${u.id})">Editar</button>
-                <button class="button button--danger" onclick="eliminarUtilizador(${u.id})">Eliminar</button>
+                <button class="button button--small"
+                        onclick="editarUtilizador(${u.id})">
+                    Editar
+                </button>
+                <button class="button button--danger"
+                        onclick="eliminarUtilizador(${u.id})">
+                    Eliminar
+                </button>
             </td>
         `;
 
@@ -124,7 +143,7 @@ function renderTabela(lista) {
 
 
 // =============================
-// MENSAGEM AO UTILIZADOR
+// MENSAGENS AO UTILIZADOR
 // =============================
 function mostrarMensagem(texto, erro = false) {
     const msg = document.getElementById("utilizadorMensagem");

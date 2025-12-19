@@ -1,19 +1,20 @@
 // ======================================================
-// CATEGORIAS.JS
-// Responsável pela gestão de categorias através da API
+// Categoria.JS
+// Responsável pela gestão de Categoria através da API
 // ======================================================
+const user = Session.getUser();
+if (!user) {
+    window.location.href = "login.html";
+}
 
-// Endereço base da API para categorias
-// (Pode ser alterado quando o backend estiver completo)
-const API_URL = "/api/categorias";
+// Endereço base da API para Categoria
+const API_URL = "/api/Categoria";
 
 /**
  * Executado automaticamente quando a página é carregada.
- * - Carrega as categorias existentes
- * - Associa o evento submit ao formulário
  */
 document.addEventListener("DOMContentLoaded", () => {
-    carregarCategorias();
+    carregarCategoria();
 
     const form = document.getElementById("formCategoria");
     form.addEventListener("submit", criarCategoria);
@@ -21,39 +22,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 /**
- * Obtém a lista de categorias a partir do servidor
- * e envia os dados para serem apresentados na tabela.
+ * Obtém a lista de Categoria a partir do servidor
  */
-async function carregarCategorias() {
+async function carregarCategoria() {
     try {
-        const response = await fetch(API_URL);
+        const response = await Session.authFetch(API_URL);
         const categorias = await response.json();
-
         renderTabela(categorias);
     } catch (error) {
-        console.error("Erro ao carregar categorias:", error);
+        console.error("Erro ao carregar Categoria:", error);
     }
 }
 
 
 /**
- * Cria uma nova categoria com base nos dados introduzidos
- * no formulário e envia para o backend.
+ * Cria uma nova categoria
  */
 async function criarCategoria(event) {
-    event.preventDefault(); // impede o reload da página
+    event.preventDefault();
 
     const nomeInput = document.getElementById("nomeCategoria");
     const nome = nomeInput.value.trim();
 
-    // Validação simples
     if (nome === "") {
         mostrarMensagem("O nome não pode estar vazio.", true);
         return;
     }
 
     try {
-        const response = await fetch(API_URL, {
+        const response = await Session.authFetch(API_URL, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ nome })
@@ -64,12 +61,10 @@ async function criarCategoria(event) {
             return;
         }
 
-        // Limpa o campo após sucesso
         nomeInput.value = "";
         mostrarMensagem("Categoria criada com sucesso!");
+        carregarCategoria();
 
-        // Atualiza a tabela
-        carregarCategorias();
     } catch (error) {
         console.error(error);
         mostrarMensagem("Erro ao comunicar com o servidor.", true);
@@ -78,16 +73,14 @@ async function criarCategoria(event) {
 
 
 /**
- * Remove uma categoria com base no seu identificador (ID).
+ * Remove uma categoria
  */
 async function eliminarCategoria(id) {
-    const confirmar = confirm(
-        "Tem a certeza que deseja remover esta categoria?"
-    );
-    if (!confirmar) return;
+    if (!confirm("Tem a certeza que deseja remover esta categoria?"))
+        return;
 
     try {
-        const response = await fetch(`${API_URL}/${id}`, {
+        const response = await Session.authFetch(`${API_URL}/${id}`, {
             method: "DELETE"
         });
 
@@ -97,7 +90,8 @@ async function eliminarCategoria(id) {
         }
 
         mostrarMensagem("Categoria removida com sucesso.");
-        carregarCategorias();
+        carregarCategoria();
+
     } catch (error) {
         console.error(error);
     }
@@ -105,25 +99,22 @@ async function eliminarCategoria(id) {
 
 
 /**
- * Mostra mensagens de sucesso ou erro ao utilizador.
+ * Mensagens ao utilizador
  */
 function mostrarMensagem(texto, erro = false) {
     const mensagem = document.getElementById("categoriaMensagem");
     mensagem.textContent = texto;
     mensagem.style.color = erro ? "red" : "green";
 
-    // Remove a mensagem após alguns segundos
-    setTimeout(() => {
-        mensagem.textContent = "";
-    }, 3000);
+    setTimeout(() => mensagem.textContent = "", 3000);
 }
 
 
 /**
- * Constrói dinamicamente a tabela HTML com as categorias.
+ * Renderiza a tabela de categorias
  */
 function renderTabela(lista) {
-    const tabela = document.getElementById("tabelaCategorias");
+    const tabela = document.getElementById("tabelaCategoria");
     tabela.innerHTML = "";
 
     lista.forEach(cat => {
@@ -151,9 +142,8 @@ function renderTabela(lista) {
 
 
 /**
- * Funcionalidade de edição ainda não implementada.
- * Fica como trabalho futuro.
+ * Placeholder edição
  */
 function editarCategoria(id) {
-    alert("Funcionalidade de edição ainda não implementada. (TODO)");
+    alert("Funcionalidade de edição ainda não implementada.");
 }

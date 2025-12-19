@@ -5,18 +5,18 @@ using SistemaFinanceiro.Models;
 
 namespace SistemaFinanceiro.Services
 {
-    public class GerirUtilizadores
+    public class GerirUtilizador
     {
         private readonly Sistema _sistema;
 
-        public GerirUtilizadores(Sistema sistema)
+        public GerirUtilizador(Sistema sistema)
         {
             _sistema = sistema;
         }
 
         public List<Utilizador> ObterTodos()
         {
-            return _sistema.Utilizadores;
+            return _sistema.Utilizador;
         }
 
         public Utilizador Criar(string nome, string email, string password, string perfil)
@@ -24,17 +24,30 @@ namespace SistemaFinanceiro.Services
             if (string.IsNullOrWhiteSpace(nome) ||
                 string.IsNullOrWhiteSpace(email) ||
                 string.IsNullOrWhiteSpace(password))
+            {
                 throw new Exception("Dados inválidos.");
+            }
 
-            if (_sistema.Utilizadores.Any(u => u.Email == email))
+            // ✅ comparação segura de email
+            if (_sistema.Utilizador.Any(u =>
+                u.Email.Equals(email, StringComparison.OrdinalIgnoreCase)))
+            {
                 throw new Exception("Email já existe.");
+            }
 
-            int novoId = _sistema.Utilizadores.Count == 0
+            int novoId = _sistema.Utilizador.Count == 0
                 ? 1
-                : _sistema.Utilizadores.Max(u => u.Id) + 1;
+                : _sistema.Utilizador.Max(u => u.Id) + 1;
 
-            var utilizador = new Utilizador(novoId, nome, email, password, perfil);
-            _sistema.Utilizadores.Add(utilizador);
+            var utilizador = new Utilizador(
+                novoId,
+                nome,
+                email,
+                password,
+                perfil
+            );
+
+            _sistema.Utilizador.Add(utilizador);
             _sistema.SalvarTudo();
 
             return utilizador;
@@ -42,10 +55,10 @@ namespace SistemaFinanceiro.Services
 
         public bool Remover(int id)
         {
-            var u = _sistema.Utilizadores.FirstOrDefault(x => x.Id == id);
+            var u = _sistema.Utilizador.FirstOrDefault(x => x.Id == id);
             if (u == null) return false;
 
-            _sistema.Utilizadores.Remove(u);
+            _sistema.Utilizador.Remove(u);
             _sistema.SalvarTudo();
             return true;
         }
