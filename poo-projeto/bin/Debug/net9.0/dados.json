@@ -24,18 +24,18 @@
   ],
   "Categoria": [
     {
-      "Id": 2,
-      "Nome": "ASSA"
+      "Id": 1,
+      "Nome": "hiii"
     }
   ],
   "Transacao": [
     {
       "Id": 1,
-      "Descricao": "SADSDASD",
+      "Descricao": "sadsads",
       "Valor": 222,
-      "Data": "2025-12-16T00:00:00",
+      "Data": "2024-11-10T00:00:00",
       "Tipo": 1,
-      "CategoriaId": 2
+      "CategoriaId": null
     }
   ]
 }

@@ -20,7 +20,6 @@ builder.Services.AddCors(options =>
 builder.Services.AddSingleton<Sistema>();
 
 // Serviços de negócio
-builder.Services.AddScoped<GerarRelatorio>();
 builder.Services.AddScoped<GerirCategoria>();
 builder.Services.AddScoped<GerirUtilizador>();
 builder.Services.AddScoped<GerirTransacao>();
