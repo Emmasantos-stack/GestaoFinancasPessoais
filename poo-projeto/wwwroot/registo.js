@@ -23,7 +23,7 @@ async function criarConta(event) {
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
-    const perfil = "Utilizador";
+    const perfil = "user";
 
     // Validação básica
     if (!nome || !email || !password) {

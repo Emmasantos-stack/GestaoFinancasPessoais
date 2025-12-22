@@ -60,7 +60,24 @@ namespace SistemaFinanceiro.Services
 
             return utilizador;
         }
+        public bool Editar(int id, string nome, string email, string password, string perfil)
+        {
+            var u = _sistema.Utilizador.FirstOrDefault(x => x.Id == id);
+            if (u == null) return false;
 
+            if (string.IsNullOrWhiteSpace(nome) ||
+                string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(password))
+                throw new Exception("Dados inválidos.");
+
+            u.Nome = nome;
+            u.Email = email;
+            u.Password = password;
+            u.Perfil = perfil;
+
+            _sistema.SalvarTudo();
+            return true;
+        }
         // Remove um utilizador existente.
 
         public bool Remover(int id)

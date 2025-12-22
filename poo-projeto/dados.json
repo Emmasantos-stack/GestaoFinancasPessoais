@@ -5,14 +5,14 @@
       "Nome": "Daniel",
       "Email": "dp9069501@gmail.com",
       "Password": "1234",
-      "Perfil": "Administrador"
+      "Perfil": "Utilizador"
     },
     {
       "Id": 2,
       "Nome": "ana",
       "Email": "ana@gmail.com",
       "Password": "asd",
-      "Perfil": "Administrador"
+      "Perfil": "Utilizador"
     },
     {
       "Id": 3,

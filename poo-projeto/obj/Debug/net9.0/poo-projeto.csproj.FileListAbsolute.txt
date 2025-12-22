@@ -18,19 +18,16 @@ C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\ne
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\2ris5x5ige-vk7vm3a78s.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\ja7j5in3yg-c5v5e5o3w4.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\1dxu4rgjd0-teg2am8eur.gz
-C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\pkfyqqnm6a-jdkaeo0tr5.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\mpbfmpmh7r-0wlw3toy84.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\9nl3t2qrws-yiot5ox2ii.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\cv46nfr5c0-mgpi4sbaoh.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\rexxbfjycn-69r6xbdh4m.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\3yi5xx0yda-ihwv3qb4dc.gz
-C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\yur9r709gp-1oilynqhs4.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\c0214cbbv7-8091womn87.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\bts3fo32gk-c7ajqkk69t.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\nmjwihatue-4dziwh8h2w.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\upixa6lgqw-5uxinpwl12.gz
-C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\49742oyqdq-2kj6f79kjy.gz
-C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\a5mz0oawgl-dnxby9fmkd.gz
+C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\yur9r709gp-1oilynqhs4.gz
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\staticwebassets.development.json
@@ -40,3 +37,6 @@ C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\ne
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\poo-projeto.genruntimeconfig.cache
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\ref\poo-projeto.dll
+C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\pkfyqqnm6a-t981vn9ly9.gz
+C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\49742oyqdq-ol296z2ib3.gz
+C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\compressed\a5mz0oawgl-16x1ddax1d.gz
