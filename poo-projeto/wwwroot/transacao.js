@@ -98,7 +98,6 @@ async function criarTransacao(event) {
 }
 
 
-
 // ======================================================
 // CARREGAR TRANSACOES
 // ======================================================
@@ -184,10 +183,56 @@ function renderTabela(lista) {
     });
 }
 
+// ======================================================
+// EDITAR TRANSAÇÃO
+// ======================================================
+async function editarTransacao(id) {
 
-// ======================================================
-// PLACEHOLDER - EDITAR
-// ======================================================
-function editarTransacao(id) {
-    alert("TODO: Implementar edição de transações.");
+    const descricao = prompt("Nova descrição:");
+    if (!descricao) return;
+
+    const valor = prompt("Novo valor:");
+    if (!valor || isNaN(valor) || Number(valor) <= 0) return;
+
+    const data = prompt("Nova data (YYYY-MM-DD):");
+    if (!data) return;
+
+    const tipo = prompt("Tipo (Receita ou Despesa):");
+    if (tipo !== "Receita" && tipo !== "Despesa") {
+        alert("Tipo inválido.");
+        return;
+    }
+
+    const categoriaIdTxt = prompt("ID da categoria (ou vazio):");
+
+    const dto = {
+        descricao: descricao.trim(),
+        valor: Number(valor),
+        data,
+        tipo,
+        categoriaId: categoriaIdTxt ? Number(categoriaIdTxt) : null
+    };
+
+    try {
+        const response = await Session.authFetch(`/api/transacao/${id}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(dto)
+        });
+
+        if (!response.ok) {
+            const erro = await response.text();
+            mostrarMensagem(erro || "Erro ao editar transação.", true);
+            return;
+        }
+
+        mostrarMensagem("Transação alterada com sucesso!");
+        carregarTransacoes();
+
+    } catch (err) {
+        console.error(err);
+        mostrarMensagem("Erro de comunicação com servidor.", true);
+    }
 }
+
+

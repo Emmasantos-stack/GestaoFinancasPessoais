@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "b8GeD8FuwOk=",
+<<<<<<< HEAD
+  "dgSpecHash": "O0WE4rZajvM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
+  "projectFilePath": "C:\\Users\\santo\\OneDrive\\Ambiente de Trabalho\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+=======
+  "dgSpecHash": "I7WuRoy8g80=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+>>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,6 +6,7 @@ using SistemaFinanceiro.Models;
 namespace SistemaFinanceiro.Services
 {
     // Classe responsável por gerir todas as operações relacionadas com transações
+// Permite criar, listar, editar, remover transaçõese calcular o saldo atual.
     public class GerirTransacao
     {
         // Referência ao sistema principal onde os dados estão guardados
@@ -19,7 +20,10 @@ namespace SistemaFinanceiro.Services
         }
 
         // Método que devolve a lista completa de transações existentes
-        public List<Transacao> ObterTransacao() => _sistema.Transacao;
+        public List<Transacao> ObterTransacao() 
+        {
+         return _sistema.Transacao;
+        }
 
         // Método responsável por criar uma nova transação
         public Transacao CriarTransacao(string desc, double valor, DateTime data, TipoTransacao tipo, int? catId)
@@ -30,29 +34,29 @@ namespace SistemaFinanceiro.Services
             int id = _sistema.Transacao.Any() ? _sistema.Transacao.Max(t => t.Id) + 1 : 1;
             
             // Cria um novo objeto Transacao com os dados recebidos
-            var t = new Transacao(id, desc, valor, data, tipo, catId);
+            var transacao = new Transacao(id, desc, valor, data, tipo, catId);
             
             // Adiciona a transação à lista do sistema
-            _sistema.Transacao.Add(t);
+            _sistema.Transacao.Add(transacao);
            
            // Guarda todas as alterações no ficheiro de persistência
             _sistema.SalvarTudo();
            
            // Devolve a transação criada
-            return t;
+            return transacao;
         }
 
         // Método responsável por remover uma transação através do ID
         public bool RemoverTransacao(int id)
         {
             // Procura a transação com o ID indicado
-            var t = _sistema.Transacao.FirstOrDefault(x => x.Id == id);
+            var transacao = _sistema.Transacao.FirstOrDefault(t => t.Id == id);
             
             // Se não existir, devolve false
-            if (t == null) return false;
+            if (transacao == null) return false;
 
             // Remove a transação da lista
-            _sistema.Transacao.Remove(t);
+            _sistema.Transacao.Remove(transacao);
 
             // Guarda as alterações
             _sistema.SalvarTudo();
@@ -65,37 +69,37 @@ namespace SistemaFinanceiro.Services
         public double ObterSaldoAtual()
         {
             // Soma todos os valores das transações do tipo Receita
-            var r = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Receita).Sum(t => t.Valor);
+            var receitas = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Receita).Sum(t => t.Valor);
             
             // Soma todos os valores das transações do tipo Despesa
-            var d = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Despesa).Sum(t => t.Valor);
+            var despesas = _sistema.Transacao.Where(t => t.Tipo == TipoTransacao.Despesa).Sum(t => t.Valor);
             
             // O saldo é a diferença entre receitas e despesas
-            return r - d;
+            return receitas - despesas;
         }
 
     // Método responsável por editar uma transação existente
-    public bool EditarTransacao(
-       int id,
-       string descricao,
-       double valor,
-       DateTime data,
-       TipoTransacao tipo,
-       int? categoriaId)
+    public bool EditarTransacao( int id, string descricao, double valor, DateTime data, TipoTransacao tipo, int? categoriaId )
 {
     // Procura a transação pelo ID
-    var t = _sistema.Transacao.FirstOrDefault(x => x.Id == id);
+    var transacao = _sistema.Transacao.FirstOrDefault(t => t.Id == id);
 
     // Se não existir, devolve false
-    if (t == null)
+    if (transacao == null)
         return false;
 
+    if (string.IsNullOrWhiteSpace(descricao))
+        throw new ArgumentException("Descrição inválida.");
+
+    if (valor <= 0)
+        throw new ArgumentException("Valor inválido.");
+        
     // Atualiza os dados da transação
-    t.Descricao = descricao;
-    t.Valor = valor;
-    t.Data = data;
-    t.Tipo = tipo;
-    t.CategoriaId = categoriaId;
+    transacao.Descricao = descricao;
+    transacao.Valor = valor;
+    transacao.Data = data;
+    transacao.Tipo = tipo;
+    transacao.CategoriaId = categoriaId;
 
     // Guarda as alterações feitas
     _sistema.SalvarTudo();
