@@ -34,6 +34,20 @@
       "Email": "emanuelatchissolene@gmail.com",
       "Password": "fred1983",
       "Perfil": "Utilizador"
+    },
+    {
+      "Id": 6,
+      "Nome": "emma",
+      "Email": "emmasantos@gmail.com",
+      "Password": "11111",
+      "Perfil": "Utilizador"
+    },
+    {
+      "Id": 7,
+      "Nome": "emma santos",
+      "Email": "emmasantos06@gmail.com",
+      "Password": "111222",
+      "Perfil": "Utilizador"
     }
   ],
   "Categoria": [
