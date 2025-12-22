@@ -3,33 +3,30 @@
 // Gestão de utilizadores via API REST (autenticada)
 // =============================
 
-// Obtém o utilizador autenticado da sessão
+// Obtém o utilizador autenticado
 const user = Session.getUser();
 
-// Caso não exista sessão ativa, redireciona para o login
+// Sem sessão → login
 if (!user) {
     window.location.href = "login.html";
 }
 
-// Endpoint base da API de utilizadores
+// Apenas Administradores podem aceder
+if (user.perfil !== "Administrador") {
+    alert("Acesso restrito a administradores.");
+    window.location.href = "index.html";
+}
+
+// Endpoint base
 const API_UTILIZADOR = "/api/utilizador";
 
-// Executado quando a página termina de carregar
+// =============================
+// INIT
+// =============================
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Restrição de acesso (opcional mas recomendada)
-    // Apenas utilizadores com perfil Admin podem aceder
-    const user = Session.getUser();
-    if (user && user.perfil !== "Admin") {
-        alert("Acesso restrito a administradores.");
-        window.location.href = "index.html";
-        return;
-    }
-
-    // Carrega a lista de utilizadores existentes
     carregarUtilizador();
 
-    // Associa o evento de submissão do formulário
     document
         .getElementById("formUtilizador")
         .addEventListener("submit", criarUtilizador);
@@ -39,23 +36,19 @@ document.addEventListener("DOMContentLoaded", () => {
 // =============================
 // CRIAR UTILIZADOR
 // =============================
-// Envia um pedido POST para criar um novo utilizador
 async function criarUtilizador(event) {
     event.preventDefault();
 
-    // Obtém os valores introduzidos no formulário
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
     const perfil = document.getElementById("perfil").value;
 
-    // Validação básica dos campos
     if (!nome || !email || !password) {
         mostrarMensagem("Preencha todos os campos.", true);
         return;
     }
 
-    // Objeto a enviar para a API
     const novoUser = { nome, email, password, perfil };
 
     try {
@@ -65,13 +58,12 @@ async function criarUtilizador(event) {
             body: JSON.stringify(novoUser)
         });
 
-        // Caso a API devolva erro
         if (!response.ok) {
-            mostrarMensagem("Erro ao criar utilizador.", true);
+            const erro = await response.text();
+            mostrarMensagem(erro || "Erro ao criar utilizador.", true);
             return;
         }
 
-        // Sucesso
         mostrarMensagem("Utilizador criado com sucesso!");
         document.getElementById("formUtilizador").reset();
         carregarUtilizador();
@@ -86,15 +78,14 @@ async function criarUtilizador(event) {
 // =============================
 // CARREGAR UTILIZADORES
 // =============================
-// Obtém todos os utilizadores da API
 async function carregarUtilizador() {
     try {
         const response = await Session.authFetch(API_UTILIZADOR);
         const utilizador = await response.json();
-        renderTabela(utilizador);
+        renderUtilizador(utilizador);
 
     } catch (err) {
-        console.error("Erro ao carregar utilizador:", err);
+        console.error("Erro ao carregar utilizadores:", err);
     }
 }
 
@@ -102,7 +93,6 @@ async function carregarUtilizador() {
 // =============================
 // ELIMINAR UTILIZADOR
 // =============================
-// Remove um utilizador com base no ID
 async function eliminarUtilizador(id) {
     if (!confirm("Tem a certeza que deseja eliminar este utilizador?"))
         return;
@@ -127,10 +117,62 @@ async function eliminarUtilizador(id) {
 
 
 // =============================
-// RENDERIZAR TABELA
+// EDITAR UTILIZADOR ✅
 // =============================
-// Apresenta a lista de utilizadores na tabela HTML
-function renderTabela(lista) {
+async function editarUtilizador(id) {
+
+    const nome = prompt("Novo nome:");
+    if (!nome) return;
+
+    const email = prompt("Novo email:");
+    if (!email) return;
+
+    const password = prompt("Nova password (mín. 4 caracteres):");
+    if (!password || password.length < 4) {
+        alert("Password inválida.");
+        return;
+    }
+
+    const perfil = prompt("Perfil (Administrador ou Utilizador):");
+    if (perfil !== "Administrador" && perfil !== "Utilizador") {
+        alert("Perfil inválido.");
+        return;
+    }
+
+    const dto = {
+        nome: nome.trim(),
+        email: email.trim(),
+        password,
+        perfil
+    };
+
+    try {
+        const response = await Session.authFetch(`${API_UTILIZADOR}/${id}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(dto)
+        });
+
+        if (!response.ok) {
+            const erro = await response.text();
+            mostrarMensagem(erro || "Erro ao editar utilizador.", true);
+            return;
+        }
+
+        mostrarMensagem("Utilizador alterado com sucesso!");
+        carregarUtilizador();
+
+    } catch (err) {
+        console.error(err);
+        mostrarMensagem("Erro de comunicação com servidor.", true);
+    }
+}
+
+
+// =============================
+// RENDER TABELA
+// =============================
+function renderUtilizador(lista) {
     const tabela = document.getElementById("tabelaUtilizador");
     tabela.innerHTML = "";
 
@@ -161,21 +203,11 @@ function renderTabela(lista) {
 
 
 // =============================
-// MENSAGENS AO UTILIZADOR
+// MENSAGENS
 // =============================
-// Mostra mensagens de sucesso ou erro
 function mostrarMensagem(texto, erro = false) {
     const msg = document.getElementById("utilizadorMensagem");
     msg.textContent = texto;
     msg.style.color = erro ? "red" : "green";
     setTimeout(() => msg.textContent = "", 3000);
-}
-
-
-// =============================
-// PLACEHOLDER - EDITAR
-// =============================
-// Funcionalidade de edição futura
-function editarUtilizador(id) {
-    alert("TODO: Implementar edição de utilizador.");
 }

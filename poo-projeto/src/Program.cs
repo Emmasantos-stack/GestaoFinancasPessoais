@@ -33,6 +33,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 // API - UTILIZADOR
+// =============================
+// API - UTILIZADOR
+// =============================
+
 app.MapGet("/api/utilizador", (GerirUtilizador s) =>
     Results.Ok(s.ObterTodos())
 );
@@ -42,7 +46,12 @@ app.MapPost("/api/utilizador", (UtilizadorDto dto, GerirUtilizador s) =>
     try
     {
         return Results.Ok(
-            s.Criar(dto.Nome, dto.Email, dto.Password, dto.Perfil ?? "user")
+            s.Criar(
+                dto.Nome,
+                dto.Email,
+                dto.Password,
+                dto.Perfil ?? "Utilizador"
+            )
         );
     }
     catch (Exception ex)
@@ -50,6 +59,28 @@ app.MapPost("/api/utilizador", (UtilizadorDto dto, GerirUtilizador s) =>
         return Results.BadRequest(ex.Message);
     }
 });
+
+app.MapPut("/api/utilizador/{id:int}", (int id, UtilizadorDto dto, GerirUtilizador s) =>
+{
+    try
+    {
+        return s.Editar(
+            id,
+            dto.Nome,
+            dto.Email,
+            dto.Password,
+            dto.Perfil ?? "Utilizador"
+        )
+            ? Results.Ok()
+            : Results.NotFound();
+    }
+    catch (Exception ex)
+    {
+        return Results.BadRequest(ex.Message);
+    }
+});
+
+
 
 // API - CATEGORIA
 app.MapGet("/api/categoria", (GerirCategoria s) =>
