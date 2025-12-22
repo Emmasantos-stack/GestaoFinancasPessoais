@@ -71,9 +71,9 @@ namespace SistemaFinanceiro.UI
     Console.Write("Password: ");
     string password = Console.ReadLine() ?? "";
 
-    Console.Write("Perfil (admin/user): ");
+    Console.Write("Perfil (Administrador/Utilizador): ");
     string perfil = Console.ReadLine() ?? "user";
-    perfil = perfil.ToLower() != "admin" ? "user" : "admin";
+    perfil = perfil.ToLower() != "Administrador" ? "Utilizador" : "Administrador";
 
     try
     {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <!-- Codificação de caracteres -->
     <meta charset="UTF-8">
@@ -34,6 +35,12 @@
     <!-- ================= MENU DE NAVEGAÇÃO ================= -->
     <nav class="nav">
         <ul class="nav__list">
+            <li class="nav__item" id="menuUtilizadores" style="display: none;">
+                <a href="utilizador.html" class="nav__link">
+                    Gerir Utilizadores
+                </a>
+            </li>
+
             <li class="nav__item">
                 <a href="categoria.html" class="nav__link">
                     Gerir Categorias
@@ -49,6 +56,12 @@
             <li class="nav__item">
                 <a href="relatorios.html" class="nav__link">
                     Relatórios
+                </a>
+            </li>
+
+             <li class="nav__item">
+                <a href="utilizador.html" class="nav__link">
+                    Utilizador
                 </a>
             </li>
         </ul>
@@ -74,6 +87,22 @@
     <!-- ================= SCRIPTS ================= -->
     <!-- Gestão de sessão -->
     <script src="session.js"></script>
+    <script>
+    const user = Session.getUser();
+
+    if (!user) {
+        window.location.href = "login.html";
+    }
+
+    console.log("Perfil do utilizador:", user.perfil);
+
+    const menuUtilizadores = document.getElementById("menuUtilizadores");
+
+    if (user.perfil === "Administrador") {
+        menuUtilizadores.style.display = "block";
+    }
+</script>
+
 
     <!-- Logout do utilizador -->
     <script src="logout.js"></script>
@@ -87,4 +116,5 @@
     </script>
 
 </body>
+
 </html>

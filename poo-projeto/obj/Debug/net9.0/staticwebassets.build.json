@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kIApgMqmmIzVh8vriXSDXFAcPAofZSf6mFfgpCF1cG8=",
+  "Hash": "2hqo9ikcP+ZDtAXriIxdWblWxXQJxBrWf73i2/P+KGU=",
   "Source": "poo-projeto",
   "BasePath": "_content/poo-projeto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "poo-projeto\\wwwroot",
       "Source": "poo-projeto",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "css/style#[.{fingerprint=teg2am8eur}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nr4ofkaazy",
       "Integrity": "3XL5SqiR8+biIxkW5qEQponxWvyWcoWreNUMElPY1zQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "categoria#[.{fingerprint=vk7vm3a78s}]?.html.gz",
       "AssetKind": "All",
@@ -49,62 +49,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "97g0spt50j",
       "Integrity": "+/3/edn3kqiAYemyUMHs1ujAEVetx3NoieEdjjnVLQA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-ihwv3qb4dc.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-x3v7e9ypyk.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "registo#[.{fingerprint=ihwv3qb4dc}]?.js.gz",
+      "RelativePath": "registo#[.{fingerprint=x3v7e9ypyk}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "60tszsni59",
-      "Integrity": "Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw=",
+      "Fingerprint": "f07ivib53a",
+      "Integrity": "ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-2kj6f79kjy.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-z74jhxiuil.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "utilizador#[.{fingerprint=2kj6f79kjy}]?.html.gz",
+      "RelativePath": "utilizador#[.{fingerprint=z74jhxiuil}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hj7u2nkzp4",
-      "Integrity": "U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU=",
+      "Fingerprint": "ceinx7bx4b",
+      "Integrity": "HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "login#[.{fingerprint=yiot5ox2ii}]?.js.gz",
       "AssetKind": "All",
@@ -112,41 +112,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "p5hobisths",
       "Integrity": "IyBx0c2rSKnmo8KwNZu/n0retPc+Xz+34K+btJJLn1o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-dnxby9fmkd.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-em0ixmugj5.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "utilizador#[.{fingerprint=dnxby9fmkd}]?.js.gz",
+      "RelativePath": "utilizador#[.{fingerprint=em0ixmugj5}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xvxlx06z4x",
-      "Integrity": "M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI=",
+      "Fingerprint": "p9tmtj88sr",
+      "Integrity": "U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "session#[.{fingerprint=c7ajqkk69t}]?.js.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8jjsx94kro",
       "Integrity": "HOm5LvQaTJ68b6bAgW+TR17xNJpbRU8QrMgNBVtfuR0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "relatorios#[.{fingerprint=8091womn87}]?.js.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "lhb19m8c6z",
       "Integrity": "aTHneOksh20Gxg9nCJW8p063i+inRjOuDisyT09SW6U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "logout#[.{fingerprint=mgpi4sbaoh}]?.js.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "yl1xa40x9p",
       "Integrity": "ZqClJVTXS8ITfBVLh0HuxW8UZzcSvDZUJY0oua8FtCE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "categoria#[.{fingerprint=c5v5e5o3w4}]?.js.gz",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "mg7gjxb3nu",
       "Integrity": "Ou9esOh2n2e9lGFYP917PbnyLr3KirmH0hnyHk2eGRE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "login#[.{fingerprint=0wlw3toy84}]?.html.gz",
       "AssetKind": "All",
@@ -238,62 +238,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nc8op7yx95",
       "Integrity": "R9VfUqBKc7gKfnE/QufNaZGupdt/tKlcfCOkgUzdg3w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-4dziwh8h2w.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-zn4oes4bua.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "transacao#[.{fingerprint=4dziwh8h2w}]?.html.gz",
+      "RelativePath": "transacao#[.{fingerprint=zn4oes4bua}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fm48yfnxqf",
-      "Integrity": "mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc=",
+      "Fingerprint": "bxrbipondn",
+      "Integrity": "H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-jdkaeo0tr5.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-fvk745kbzj.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "index#[.{fingerprint=jdkaeo0tr5}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=fvk745kbzj}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rhgfdga55v",
-      "Integrity": "P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ=",
+      "Fingerprint": "rx2tcge7f1",
+      "Integrity": "HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "registo#[.{fingerprint=69r6xbdh4m}]?.html.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "kobhxh6jos",
       "Integrity": "nOX/ywBJSPGrQhnseM3I2RBNjWzunSyQnm4I+eh/FB0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "transacao#[.{fingerprint=5uxinpwl12}]?.js.gz",
       "AssetKind": "All",
@@ -322,41 +322,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "6kqgdshss7",
       "Integrity": "dhfaPHBAjw0p52MYQpH42jT8gsFzJWcGzUM0eVJtmqM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-1oilynqhs4.gz",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-gm3ayh19xs.gz",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/poo-projeto",
-      "RelativePath": "relatorios#[.{fingerprint=1oilynqhs4}]?.html.gz",
+      "RelativePath": "relatorios#[.{fingerprint=gm3ayh19xs}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "RelatedAsset": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "35pm6699fq",
-      "Integrity": "OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4=",
+      "Fingerprint": "wwzqujqt00",
+      "Integrity": "sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html"
+      "OriginalItemSpec": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "categoria#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\categoria.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "categoria#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\categoria.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -430,17 +430,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jdkaeo0tr5",
-      "Integrity": "WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=",
+      "Fingerprint": "fvk745kbzj",
+      "Integrity": "leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "login#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\login.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "logout#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\logout.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "registo#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\registo.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "registo#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -535,17 +535,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ihwv3qb4dc",
-      "Integrity": "yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=",
+      "Fingerprint": "x3v7e9ypyk",
+      "Integrity": "PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\registo.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "relatorios#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -556,17 +556,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1oilynqhs4",
-      "Integrity": "P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=",
+      "Fingerprint": "gm3ayh19xs",
+      "Integrity": "2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\relatorios.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "relatorios#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\relatorios.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "session#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\session.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "transacao#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -619,17 +619,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4dziwh8h2w",
-      "Integrity": "eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=",
+      "Fingerprint": "zn4oes4bua",
+      "Integrity": "n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\transacao.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "transacao#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\transacao.js"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "utilizador#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -661,17 +661,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2kj6f79kjy",
-      "Integrity": "ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=",
+      "Fingerprint": "z74jhxiuil",
+      "Integrity": "HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\utilizador.html"
     },
     {
-      "Identity": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "Identity": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
       "SourceId": "poo-projeto",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\",
       "BasePath": "_content/poo-projeto",
       "RelativePath": "utilizador#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -682,8 +682,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dnxby9fmkd",
-      "Integrity": "GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=",
+      "Fingerprint": "em0ixmugj5",
+      "Integrity": "WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\utilizador.js"
@@ -692,7 +692,7 @@
   "Endpoints": [
     {
       "Route": "categoria.c5v5e5o3w4.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -715,7 +715,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -755,7 +755,7 @@
     },
     {
       "Route": "categoria.c5v5e5o3w4.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -776,7 +776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -800,7 +800,7 @@
     },
     {
       "Route": "categoria.c5v5e5o3w4.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -821,7 +821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -853,7 +853,7 @@
     },
     {
       "Route": "categoria.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -876,7 +876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -908,7 +908,7 @@
     },
     {
       "Route": "categoria.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -929,7 +929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -945,7 +945,7 @@
     },
     {
       "Route": "categoria.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -966,7 +966,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -990,7 +990,7 @@
     },
     {
       "Route": "categoria.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1013,7 +1013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1045,7 +1045,7 @@
     },
     {
       "Route": "categoria.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1066,7 +1066,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1082,7 +1082,7 @@
     },
     {
       "Route": "categoria.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\ja7j5in3yg-c5v5e5o3w4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1103,7 +1103,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1127,7 +1127,7 @@
     },
     {
       "Route": "categoria.vk7vm3a78s.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1150,7 +1150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1190,7 +1190,7 @@
     },
     {
       "Route": "categoria.vk7vm3a78s.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1211,7 +1211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1235,7 +1235,7 @@
     },
     {
       "Route": "categoria.vk7vm3a78s.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\2ris5x5ige-vk7vm3a78s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1256,7 +1256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1288,7 +1288,7 @@
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1311,7 +1311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1343,7 +1343,7 @@
     },
     {
       "Route": "css/style.css",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1364,7 +1364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1380,7 +1380,7 @@
     },
     {
       "Route": "css/style.css.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1401,7 +1401,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1425,7 +1425,7 @@
     },
     {
       "Route": "css/style.teg2am8eur.css",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1448,7 +1448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1488,7 +1488,7 @@
     },
     {
       "Route": "css/style.teg2am8eur.css",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1509,7 +1509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1533,7 +1533,7 @@
     },
     {
       "Route": "css/style.teg2am8eur.css.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\1dxu4rgjd0-teg2am8eur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1554,7 +1554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1585,13 +1585,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-jdkaeo0tr5.gz",
+      "Route": "index.fvk745kbzj.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-fvk745kbzj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001025641026"
+          "Quality": "0.000871080139"
         }
       ],
       "ResponseHeaders": [
@@ -1601,152 +1601,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "974"
+          "Value": "1147"
         },
         {
           "Name": "ETag",
-          "Value": "\"P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ=\""
+          "Value": "\"HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2692"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-jdkaeo0tr5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "974"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ="
-        }
-      ]
-    },
-    {
-      "Route": "index.jdkaeo0tr5.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-jdkaeo0tr5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001025641026"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "974"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1766,13 +1629,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=\""
+          "Value": "W/\"leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jdkaeo0tr5"
+          "Value": "fvk745kbzj"
         },
         {
           "Name": "label",
@@ -1780,13 +1643,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU="
+          "Value": "sha256-leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk="
         }
       ]
     },
     {
-      "Route": "index.jdkaeo0tr5.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Route": "index.fvk745kbzj.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1795,7 +1658,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2692"
+          "Value": "3470"
         },
         {
           "Name": "Content-Type",
@@ -1803,11 +1666,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=\""
+          "Value": "\"leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1817,7 +1680,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jdkaeo0tr5"
+          "Value": "fvk745kbzj"
         },
         {
           "Name": "label",
@@ -1825,13 +1688,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU="
+          "Value": "sha256-leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk="
         }
       ]
     },
     {
-      "Route": "index.jdkaeo0tr5.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-jdkaeo0tr5.gz",
+      "Route": "index.fvk745kbzj.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-fvk745kbzj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1840,7 +1703,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "974"
+          "Value": "1147"
         },
         {
           "Name": "Content-Type",
@@ -1848,11 +1711,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ=\""
+          "Value": "\"HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1870,7 +1733,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jdkaeo0tr5"
+          "Value": "fvk745kbzj"
         },
         {
           "Name": "label",
@@ -1878,13 +1741,150 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P04R4xx3lIUnOrMvxAY67sAVAh3OEbvYm4X7oF1xHaQ="
+          "Value": "sha256-HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-fvk745kbzj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000871080139"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1147"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leIFZj36VHveqJkvl2+ZLcaFq11Dr+7p2vEnSm/4Cdk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\pkfyqqnm6a-fvk745kbzj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyBcLB+cZcBQ7PJEX769Bvd9EZO1CurOH108byWTFF8="
         }
       ]
     },
     {
       "Route": "login.0wlw3toy84.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1907,7 +1907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1947,7 +1947,7 @@
     },
     {
       "Route": "login.0wlw3toy84.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1968,7 +1968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1992,7 +1992,7 @@
     },
     {
       "Route": "login.0wlw3toy84.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2013,7 +2013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2045,7 +2045,7 @@
     },
     {
       "Route": "login.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2068,7 +2068,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2100,7 +2100,7 @@
     },
     {
       "Route": "login.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2121,7 +2121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2137,7 +2137,7 @@
     },
     {
       "Route": "login.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\mpbfmpmh7r-0wlw3toy84.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2158,7 +2158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2182,7 +2182,7 @@
     },
     {
       "Route": "login.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2205,7 +2205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2237,7 +2237,7 @@
     },
     {
       "Route": "login.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2258,7 +2258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2274,7 +2274,7 @@
     },
     {
       "Route": "login.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2295,7 +2295,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2319,7 +2319,7 @@
     },
     {
       "Route": "login.yiot5ox2ii.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2342,7 +2342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2382,7 +2382,7 @@
     },
     {
       "Route": "login.yiot5ox2ii.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2403,7 +2403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2427,7 +2427,7 @@
     },
     {
       "Route": "login.yiot5ox2ii.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\9nl3t2qrws-yiot5ox2ii.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2480,7 +2480,7 @@
     },
     {
       "Route": "logout.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2503,7 +2503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2535,7 +2535,7 @@
     },
     {
       "Route": "logout.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2556,7 +2556,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,7 +2572,7 @@
     },
     {
       "Route": "logout.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2593,7 +2593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2617,7 +2617,7 @@
     },
     {
       "Route": "logout.mgpi4sbaoh.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2640,7 +2640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2680,7 +2680,7 @@
     },
     {
       "Route": "logout.mgpi4sbaoh.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2701,7 +2701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2725,7 +2725,7 @@
     },
     {
       "Route": "logout.mgpi4sbaoh.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\cv46nfr5c0-mgpi4sbaoh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2746,7 +2746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2778,7 +2778,7 @@
     },
     {
       "Route": "registo.69r6xbdh4m.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2801,7 +2801,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2841,7 +2841,7 @@
     },
     {
       "Route": "registo.69r6xbdh4m.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2862,7 +2862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2886,7 +2886,7 @@
     },
     {
       "Route": "registo.69r6xbdh4m.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2907,7 +2907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2939,7 +2939,7 @@
     },
     {
       "Route": "registo.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2962,7 +2962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2994,7 +2994,7 @@
     },
     {
       "Route": "registo.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3015,7 +3015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3031,7 +3031,7 @@
     },
     {
       "Route": "registo.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\rexxbfjycn-69r6xbdh4m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3052,7 +3052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3075,13 +3075,13 @@
       ]
     },
     {
-      "Route": "registo.ihwv3qb4dc.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-ihwv3qb4dc.gz",
+      "Route": "registo.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-x3v7e9ypyk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001122334456"
+          "Quality": "0.001121076233"
         }
       ],
       "ResponseHeaders": [
@@ -3091,15 +3091,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "890"
+          "Value": "891"
         },
         {
           "Name": "ETag",
-          "Value": "\"Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw=\""
+          "Value": "\"ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM="
+        }
+      ]
+    },
+    {
+      "Route": "registo.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM="
+        }
+      ]
+    },
+    {
+      "Route": "registo.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-x3v7e9ypyk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4="
+        }
+      ]
+    },
+    {
+      "Route": "registo.x3v7e9ypyk.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-x3v7e9ypyk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001121076233"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "891"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3119,13 +3256,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=\""
+          "Value": "W/\"PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ihwv3qb4dc"
+          "Value": "x3v7e9ypyk"
         },
         {
           "Name": "label",
@@ -3133,13 +3270,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4="
+          "Value": "sha256-PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM="
         }
       ]
     },
     {
-      "Route": "registo.ihwv3qb4dc.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "Route": "registo.x3v7e9ypyk.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3148,7 +3285,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2021"
+          "Value": "2015"
         },
         {
           "Name": "Content-Type",
@@ -3156,11 +3293,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=\""
+          "Value": "\"PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3170,7 +3307,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ihwv3qb4dc"
+          "Value": "x3v7e9ypyk"
         },
         {
           "Name": "label",
@@ -3178,13 +3315,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4="
+          "Value": "sha256-PYsiATBr8sQ2V+56FINt4jE6psr2yjyJ+YgxL1lHEIM="
         }
       ]
     },
     {
-      "Route": "registo.ihwv3qb4dc.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-ihwv3qb4dc.gz",
+      "Route": "registo.x3v7e9ypyk.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-x3v7e9ypyk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3193,7 +3330,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "890"
+          "Value": "891"
         },
         {
           "Name": "Content-Type",
@@ -3201,11 +3338,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw=\""
+          "Value": "\"ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3223,7 +3360,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ihwv3qb4dc"
+          "Value": "x3v7e9ypyk"
         },
         {
           "Name": "label",
@@ -3231,311 +3368,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw="
-        }
-      ]
-    },
-    {
-      "Route": "registo.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-ihwv3qb4dc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001122334456"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "890"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4="
-        }
-      ]
-    },
-    {
-      "Route": "registo.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2021"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4="
-        }
-      ]
-    },
-    {
-      "Route": "registo.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\3yi5xx0yda-ihwv3qb4dc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "890"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:37:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kpt80Lb+sEXDzrItxUXFavI1hsIMTCP/fSToatlHhPw="
-        }
-      ]
-    },
-    {
-      "Route": "relatorios.1oilynqhs4.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-1oilynqhs4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001396648045"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "715"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1oilynqhs4"
-        },
-        {
-          "Name": "label",
-          "Value": "relatorios.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU="
-        }
-      ]
-    },
-    {
-      "Route": "relatorios.1oilynqhs4.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1925"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1oilynqhs4"
-        },
-        {
-          "Name": "label",
-          "Value": "relatorios.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU="
-        }
-      ]
-    },
-    {
-      "Route": "relatorios.1oilynqhs4.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-1oilynqhs4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "715"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1oilynqhs4"
-        },
-        {
-          "Name": "label",
-          "Value": "relatorios.html.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4="
+          "Value": "sha256-ARVBvI658cbrpCR2NisGWoc64D6Yobn+ElXTEYtdXH4="
         }
       ]
     },
     {
       "Route": "relatorios.8091womn87.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3558,7 +3397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3598,7 +3437,7 @@
     },
     {
       "Route": "relatorios.8091womn87.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3619,7 +3458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3643,7 +3482,7 @@
     },
     {
       "Route": "relatorios.8091womn87.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3664,7 +3503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3695,13 +3534,13 @@
       ]
     },
     {
-      "Route": "relatorios.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-1oilynqhs4.gz",
+      "Route": "relatorios.gm3ayh19xs.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-gm3ayh19xs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001396648045"
+          "Quality": "0.001321003963"
         }
       ],
       "ResponseHeaders": [
@@ -3711,15 +3550,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "715"
+          "Value": "756"
         },
         {
           "Name": "ETag",
-          "Value": "\"OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4=\""
+          "Value": "\"sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gm3ayh19xs"
+        },
+        {
+          "Name": "label",
+          "Value": "relatorios.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI="
+        }
+      ]
+    },
+    {
+      "Route": "relatorios.gm3ayh19xs.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gm3ayh19xs"
+        },
+        {
+          "Name": "label",
+          "Value": "relatorios.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI="
+        }
+      ]
+    },
+    {
+      "Route": "relatorios.gm3ayh19xs.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-gm3ayh19xs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gm3ayh19xs"
+        },
+        {
+          "Name": "label",
+          "Value": "relatorios.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ="
+        }
+      ]
+    },
+    {
+      "Route": "relatorios.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-gm3ayh19xs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001321003963"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "756"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3739,19 +3739,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=\""
+          "Value": "W/\"2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU="
+          "Value": "sha256-2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI="
         }
       ]
     },
     {
       "Route": "relatorios.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3760,7 +3760,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1925"
+          "Value": "2010"
         },
         {
           "Name": "Content-Type",
@@ -3768,11 +3768,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=\""
+          "Value": "\"2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3782,13 +3782,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU="
+          "Value": "sha256-2Mbj+wEg++hsmC6C3D35twl4IUO+muCFup4oEUTwHrI="
         }
       ]
     },
     {
       "Route": "relatorios.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-1oilynqhs4.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\yur9r709gp-gm3ayh19xs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,7 +3797,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "715"
+          "Value": "756"
         },
         {
           "Name": "Content-Type",
@@ -3805,11 +3805,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4=\""
+          "Value": "\"sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3827,13 +3827,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OWlXWgK1uPKOKWu1lIhLWGAJCXlamYlbcuJwW4C63F4="
+          "Value": "sha256-sN2s0p9up+/wfXyYMM+zGdE9ziLJ3Gn3Vu2L51MivRQ="
         }
       ]
     },
     {
       "Route": "relatorios.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3856,7 +3856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3888,7 +3888,7 @@
     },
     {
       "Route": "relatorios.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3909,7 +3909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3925,7 +3925,7 @@
     },
     {
       "Route": "relatorios.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\c0214cbbv7-8091womn87.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3946,7 +3946,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3970,7 +3970,7 @@
     },
     {
       "Route": "session.c7ajqkk69t.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3993,7 +3993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4033,7 +4033,7 @@
     },
     {
       "Route": "session.c7ajqkk69t.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4054,7 +4054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4078,7 +4078,7 @@
     },
     {
       "Route": "session.c7ajqkk69t.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4099,7 +4099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4131,7 +4131,7 @@
     },
     {
       "Route": "session.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4154,7 +4154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4186,7 +4186,7 @@
     },
     {
       "Route": "session.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4207,7 +4207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4223,7 +4223,7 @@
     },
     {
       "Route": "session.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\bts3fo32gk-c7ajqkk69t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4244,7 +4244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 13:57:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4267,169 +4267,8 @@
       ]
     },
     {
-      "Route": "transacao.4dziwh8h2w.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-4dziwh8h2w.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001033057851"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "967"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4dziwh8h2w"
-        },
-        {
-          "Name": "label",
-          "Value": "transacao.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw="
-        }
-      ]
-    },
-    {
-      "Route": "transacao.4dziwh8h2w.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3329"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4dziwh8h2w"
-        },
-        {
-          "Name": "label",
-          "Value": "transacao.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw="
-        }
-      ]
-    },
-    {
-      "Route": "transacao.4dziwh8h2w.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-4dziwh8h2w.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "967"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4dziwh8h2w"
-        },
-        {
-          "Name": "label",
-          "Value": "transacao.html.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc="
-        }
-      ]
-    },
-    {
       "Route": "transacao.5uxinpwl12.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4452,7 +4291,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4492,7 +4331,7 @@
     },
     {
       "Route": "transacao.5uxinpwl12.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4513,7 +4352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4537,7 +4376,7 @@
     },
     {
       "Route": "transacao.5uxinpwl12.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4558,7 +4397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4590,12 +4429,12 @@
     },
     {
       "Route": "transacao.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-4dziwh8h2w.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-zn4oes4bua.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001033057851"
+          "Quality": "0.000987166831"
         }
       ],
       "ResponseHeaders": [
@@ -4605,15 +4444,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "967"
+          "Value": "1012"
         },
         {
           "Name": "ETag",
-          "Value": "\"mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc=\""
+          "Value": "\"H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4633,19 +4472,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=\""
+          "Value": "W/\"n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw="
+          "Value": "sha256-n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0="
         }
       ]
     },
     {
       "Route": "transacao.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4654,7 +4493,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3329"
+          "Value": "3415"
         },
         {
           "Name": "Content-Type",
@@ -4662,11 +4501,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=\""
+          "Value": "\"n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4676,13 +4515,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw="
+          "Value": "sha256-n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0="
         }
       ]
     },
     {
       "Route": "transacao.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-4dziwh8h2w.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-zn4oes4bua.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4691,7 +4530,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "967"
+          "Value": "1012"
         },
         {
           "Name": "Content-Type",
@@ -4699,11 +4538,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc=\""
+          "Value": "\"H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4721,13 +4560,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mYgsi1pITzXPz8Dr07AQpQArGvgWGMkZ8w75FDMqzxc="
+          "Value": "sha256-H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ="
         }
       ]
     },
     {
       "Route": "transacao.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4750,7 +4589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4782,7 +4621,7 @@
     },
     {
       "Route": "transacao.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4803,7 +4642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4819,7 +4658,7 @@
     },
     {
       "Route": "transacao.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\upixa6lgqw-5uxinpwl12.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4840,7 +4679,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:08:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4863,13 +4702,13 @@
       ]
     },
     {
-      "Route": "utilizador.2kj6f79kjy.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-2kj6f79kjy.gz",
+      "Route": "transacao.zn4oes4bua.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-zn4oes4bua.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000918273646"
+          "Quality": "0.000987166831"
         }
       ],
       "ResponseHeaders": [
@@ -4879,15 +4718,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1012"
         },
         {
           "Name": "ETag",
-          "Value": "\"U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU=\""
+          "Value": "\"H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4907,27 +4746,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=\""
+          "Value": "W/\"n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kj6f79kjy"
+          "Value": "zn4oes4bua"
         },
         {
           "Name": "label",
-          "Value": "utilizador.html"
+          "Value": "transacao.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8="
+          "Value": "sha256-n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0="
         }
       ]
     },
     {
-      "Route": "utilizador.2kj6f79kjy.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "Route": "transacao.zn4oes4bua.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4936,7 +4775,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4168"
+          "Value": "3415"
         },
         {
           "Name": "Content-Type",
@@ -4944,11 +4783,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=\""
+          "Value": "\"n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4958,21 +4797,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kj6f79kjy"
+          "Value": "zn4oes4bua"
         },
         {
           "Name": "label",
-          "Value": "utilizador.html"
+          "Value": "transacao.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8="
+          "Value": "sha256-n+vgg5jhymZgsW+Q28s+dUwUae8aJIXQWer11BxQc+0="
         }
       ]
     },
     {
-      "Route": "utilizador.2kj6f79kjy.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-2kj6f79kjy.gz",
+      "Route": "transacao.zn4oes4bua.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\nmjwihatue-zn4oes4bua.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4981,7 +4820,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1012"
         },
         {
           "Name": "Content-Type",
@@ -4989,11 +4828,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU=\""
+          "Value": "\"H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 17:51:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5011,26 +4850,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2kj6f79kjy"
+          "Value": "zn4oes4bua"
         },
         {
           "Name": "label",
-          "Value": "utilizador.html.gz"
+          "Value": "transacao.html.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU="
+          "Value": "sha256-H/g5oRPYCXhujft9MP1sjn6o//YDbQqPcEcNyThRMpQ="
         }
       ]
     },
     {
-      "Route": "utilizador.dnxby9fmkd.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-dnxby9fmkd.gz",
+      "Route": "utilizador.em0ixmugj5.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-em0ixmugj5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000583771162"
+          "Quality": "0.000636942675"
         }
       ],
       "ResponseHeaders": [
@@ -5040,15 +4879,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1712"
+          "Value": "1569"
         },
         {
           "Name": "ETag",
-          "Value": "\"M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI=\""
+          "Value": "\"U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5068,13 +4907,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=\""
+          "Value": "W/\"WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dnxby9fmkd"
+          "Value": "em0ixmugj5"
         },
         {
           "Name": "label",
@@ -5082,13 +4921,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI="
+          "Value": "sha256-WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM="
         }
       ]
     },
     {
-      "Route": "utilizador.dnxby9fmkd.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "Route": "utilizador.em0ixmugj5.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5097,7 +4936,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5437"
+          "Value": "5974"
         },
         {
           "Name": "Content-Type",
@@ -5105,11 +4944,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=\""
+          "Value": "\"WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5119,7 +4958,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dnxby9fmkd"
+          "Value": "em0ixmugj5"
         },
         {
           "Name": "label",
@@ -5127,13 +4966,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI="
+          "Value": "sha256-WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM="
         }
       ]
     },
     {
-      "Route": "utilizador.dnxby9fmkd.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-dnxby9fmkd.gz",
+      "Route": "utilizador.em0ixmugj5.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-em0ixmugj5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5142,7 +4981,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1712"
+          "Value": "1569"
         },
         {
           "Name": "Content-Type",
@@ -5150,11 +4989,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI=\""
+          "Value": "\"U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5172,7 +5011,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dnxby9fmkd"
+          "Value": "em0ixmugj5"
         },
         {
           "Name": "label",
@@ -5180,18 +5019,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI="
+          "Value": "sha256-U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A="
         }
       ]
     },
     {
       "Route": "utilizador.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-2kj6f79kjy.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-z74jhxiuil.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000918273646"
+          "Quality": "0.000897666068"
         }
       ],
       "ResponseHeaders": [
@@ -5201,15 +5040,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1113"
         },
         {
           "Name": "ETag",
-          "Value": "\"U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU=\""
+          "Value": "\"HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5229,19 +5068,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=\""
+          "Value": "W/\"HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8="
+          "Value": "sha256-HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw="
         }
       ]
     },
     {
       "Route": "utilizador.html",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5250,7 +5089,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4168"
+          "Value": "4216"
         },
         {
           "Name": "Content-Type",
@@ -5258,11 +5097,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=\""
+          "Value": "\"HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5272,13 +5111,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8="
+          "Value": "sha256-HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw="
         }
       ]
     },
     {
       "Route": "utilizador.html.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-2kj6f79kjy.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-z74jhxiuil.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5287,7 +5126,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1113"
         },
         {
           "Name": "Content-Type",
@@ -5295,11 +5134,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU=\""
+          "Value": "\"HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5317,18 +5156,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U4DZwBWNy/3zXj2RiZUzM32CaxjaEWdGGQ8zdYsCuEU="
+          "Value": "sha256-HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk="
         }
       ]
     },
     {
       "Route": "utilizador.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-dnxby9fmkd.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-em0ixmugj5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000583771162"
+          "Quality": "0.000636942675"
         }
       ],
       "ResponseHeaders": [
@@ -5338,15 +5177,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1712"
+          "Value": "1569"
         },
         {
           "Name": "ETag",
-          "Value": "\"M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI=\""
+          "Value": "\"U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5366,19 +5205,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=\""
+          "Value": "W/\"WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI="
+          "Value": "sha256-WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM="
         }
       ]
     },
     {
       "Route": "utilizador.js",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5387,7 +5226,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5437"
+          "Value": "5974"
         },
         {
           "Name": "Content-Type",
@@ -5395,11 +5234,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=\""
+          "Value": "\"WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5409,13 +5248,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI="
+          "Value": "sha256-WnPs0qYnUNiJYDqPOz2oCZXNnqRCRgVZupK7jqphJVM="
         }
       ]
     },
     {
       "Route": "utilizador.js.gz",
-      "AssetFile": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-dnxby9fmkd.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\a5mz0oawgl-em0ixmugj5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5424,7 +5263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1712"
+          "Value": "1569"
         },
         {
           "Name": "Content-Type",
@@ -5432,11 +5271,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI=\""
+          "Value": "\"U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Dec 2025 15:12:05 GMT"
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5454,7 +5293,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M4B9hYNELem8F27UQo2WEM3W6a2KEYOnvACHxdib+kI="
+          "Value": "sha256-U9mbqxcOgSDEfjGcYxKN/76S1Pfc9JZXK4Ziqol2u9A="
+        }
+      ]
+    },
+    {
+      "Route": "utilizador.z74jhxiuil.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-z74jhxiuil.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000897666068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1113"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z74jhxiuil"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizador.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw="
+        }
+      ]
+    },
+    {
+      "Route": "utilizador.z74jhxiuil.html",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z74jhxiuil"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizador.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HxExCpICkVZEd2FWDoR0dGSzU9uJkd+x9IWLszrYcxw="
+        }
+      ]
+    },
+    {
+      "Route": "utilizador.z74jhxiuil.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\Debug\\net9.0\\compressed\\49742oyqdq-z74jhxiuil.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 19:03:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z74jhxiuil"
+        },
+        {
+          "Name": "label",
+          "Value": "utilizador.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBbLjX3UChyKspZsthkqF1uVTJYjBguQtfZA0Z0BXHk="
         }
       ]
     }
