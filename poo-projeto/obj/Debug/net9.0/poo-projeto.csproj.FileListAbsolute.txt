@@ -40,16 +40,13 @@ C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\ne
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\poo-projeto.genruntimeconfig.cache
 C:\Users\dp906\Documents\GitHub\GestaoFinancasPessoaisX\poo-projeto\obj\Debug\net9.0\ref\poo-projeto.dll
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.exe
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.dll
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\appsettings.json
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\dados.json
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.staticwebassets.runtime.json
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.staticwebassets.endpoints.json
-C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.exe
-C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.deps.json
-C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.runtimeconfig.json
-C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.dll
-C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.pdb
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfoInputs.cache
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.AssemblyInfo.cs
@@ -85,5 +82,8 @@ C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\stat
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.dll
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\refint\poo-projeto.dll
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.deps.json
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.runtimeconfig.json
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-projeto.pdb
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.genruntimeconfig.cache
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\ref\poo-projeto.dll
