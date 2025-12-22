@@ -90,3 +90,9 @@ C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\bin\Debug\net9.0\poo-
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.genruntimeconfig.cache
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\ref\poo-projeto.dll
 >>>>>>> e28e973b875ac0a3698c3b78243aed9aff33289e
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\pkfyqqnm6a-fvk745kbzj.gz
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\3yi5xx0yda-x3v7e9ypyk.gz
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\yur9r709gp-gm3ayh19xs.gz
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\nmjwihatue-zn4oes4bua.gz
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\49742oyqdq-z74jhxiuil.gz
+C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\compressed\a5mz0oawgl-em0ixmugj5.gz
