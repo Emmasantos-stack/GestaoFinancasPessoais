@@ -5,14 +5,14 @@
       "Nome": "Daniel",
       "Email": "dp9069501@gmail.com",
       "Password": "1234",
-      "Perfil": "Utilizador"
+      "Perfil": "Administrador"
     },
     {
       "Id": 2,
       "Nome": "ana",
       "Email": "ana@gmail.com",
       "Password": "asd",
-      "Perfil": "Utilizador"
+      "Perfil": "Administrador"
     },
     {
       "Id": 3,
@@ -23,6 +23,7 @@
     },
     {
       "Id": 4,
+<<<<<<< Updated upstream
       "Nome": "emanuela",
       "Email": "emanuelatfsantos@gmail.com",
       "Password": "fred1983",
@@ -34,6 +35,12 @@
       "Email": "emanuelatchissolene@gmail.com",
       "Password": "fred1983",
       "Perfil": "Utilizador"
+=======
+      "Nome": "ola",
+      "Email": "ola@gmail.com",
+      "Password": "1234",
+      "Perfil": "user"
+>>>>>>> Stashed changes
     }
   ],
   "Categoria": [
@@ -63,14 +70,6 @@
     }
   ],
   "Transacao": [
-    {
-      "Id": 2,
-      "Descricao": "Sal\u00E1rio Mensal",
-      "Valor": 1200,
-      "Data": "2025-01-02T00:00:00",
-      "Tipo": 1,
-      "CategoriaId": 2
-    },
     {
       "Id": 3,
       "Descricao": "Freelance Website",
@@ -118,6 +117,14 @@
       "Data": "2025-01-18T00:00:00",
       "Tipo": 2,
       "CategoriaId": 6
+    },
+    {
+      "Id": 9,
+      "Descricao": "ola",
+      "Valor": 10,
+      "Data": "2025-12-21T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": 4
     }
   ]
 }
