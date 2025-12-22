@@ -17,9 +17,15 @@ namespace SistemaFinanceiro.Services
         // ---------------------------------------------
         public Utilizador? Autenticar(string email, string password)
         {
-            return _sistema.Utilizadores.FirstOrDefault(u =>
-                string.Equals(u.Email, email) &&
-                string.Equals(u.Password, password));
+            // Validação defensiva
+            if (string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(password) ||
+                _sistema.Utilizador == null)
+                return null;
+
+            return _sistema.Utilizador.FirstOrDefault(u =>
+                u.Email == email &&
+                u.Password == password);
         }
 
         public bool CredenciaisValidas(string email, string password)

@@ -6,22 +6,27 @@
       "Email": "dp9069501@gmail.com",
       "Password": "1234",
       "Perfil": "Administrador"
+    },
+    {
+      "Id": 2,
+      "Nome": "ana",
+      "Email": "ana@gmail.com",
+      "Password": "asd",
+      "Perfil": "Administrador"
+    },
+    {
+      "Id": 3,
+      "Nome": "joao",
+      "Email": "j@gmail.com",
+      "Password": "1234",
+      "Perfil": "Administrador"
     }
   ],
-  "Categorias": [
+  "Categoria": [
     {
       "Id": 1,
-      "Nome": "Ns"
+      "Nome": "123"
     }
   ],
-  "Transacoes": [
-    {
-      "Id": 1,
-      "Descricao": "Gasto",
-      "Valor": 10,
-      "Data": "2026-05-14T00:00:00",
-      "Tipo": 2,
-      "CategoriaId": null
-    }
-  ]
+  "Transacao": []
 }

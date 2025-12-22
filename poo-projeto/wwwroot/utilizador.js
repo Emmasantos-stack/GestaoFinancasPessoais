@@ -1,14 +1,37 @@
 // =============================
-// UTILIZADORES.JS
-// Gestão de utilizadores via API REST
+// UTILIZADOR.JS
+// Gestão de utilizadores via API REST (autenticada)
 // =============================
 
-const API_UTILIZADORES = "/api/utilizadores";
+// Obtém o utilizador autenticado da sessão
+const user = Session.getUser();
 
+// Caso não exista sessão ativa, redireciona para o login
+if (!user) {
+    window.location.href = "login.html";
+}
+
+// Endpoint base da API de utilizadores
+const API_UTILIZADOR = "/api/utilizador";
+
+// Executado quando a página termina de carregar
 document.addEventListener("DOMContentLoaded", () => {
-    carregarUtilizadores();
 
-    document.getElementById("formUtilizador")
+    // Restrição de acesso (opcional mas recomendada)
+    // Apenas utilizadores com perfil Admin podem aceder
+    const user = Session.getUser();
+    if (user && user.perfil !== "Admin") {
+        alert("Acesso restrito a administradores.");
+        window.location.href = "index.html";
+        return;
+    }
+
+    // Carrega a lista de utilizadores existentes
+    carregarUtilizador();
+
+    // Associa o evento de submissão do formulário
+    document
+        .getElementById("formUtilizador")
         .addEventListener("submit", criarUtilizador);
 });
 
@@ -16,37 +39,42 @@ document.addEventListener("DOMContentLoaded", () => {
 // =============================
 // CRIAR UTILIZADOR
 // =============================
+// Envia um pedido POST para criar um novo utilizador
 async function criarUtilizador(event) {
     event.preventDefault();
 
+    // Obtém os valores introduzidos no formulário
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
     const perfil = document.getElementById("perfil").value;
 
+    // Validação básica dos campos
     if (!nome || !email || !password) {
         mostrarMensagem("Preencha todos os campos.", true);
         return;
     }
 
+    // Objeto a enviar para a API
     const novoUser = { nome, email, password, perfil };
 
     try {
-        const response = await fetch(API_UTILIZADORES, {
+        const response = await Session.authFetch(API_UTILIZADOR, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(novoUser)
         });
 
+        // Caso a API devolva erro
         if (!response.ok) {
             mostrarMensagem("Erro ao criar utilizador.", true);
             return;
         }
 
+        // Sucesso
         mostrarMensagem("Utilizador criado com sucesso!");
-
         document.getElementById("formUtilizador").reset();
-        carregarUtilizadores();
+        carregarUtilizador();
 
     } catch (err) {
         console.error(err);
@@ -55,19 +83,18 @@ async function criarUtilizador(event) {
 }
 
 
-
 // =============================
 // CARREGAR UTILIZADORES
 // =============================
-async function carregarUtilizadores() {
+// Obtém todos os utilizadores da API
+async function carregarUtilizador() {
     try {
-        const response = await fetch(API_UTILIZADORES);
-        const utilizadores = await response.json();
-
-        renderTabela(utilizadores);
+        const response = await Session.authFetch(API_UTILIZADOR);
+        const utilizador = await response.json();
+        renderTabela(utilizador);
 
     } catch (err) {
-        console.error("Erro ao carregar utilizadores:", err);
+        console.error("Erro ao carregar utilizador:", err);
     }
 }
 
@@ -75,11 +102,15 @@ async function carregarUtilizadores() {
 // =============================
 // ELIMINAR UTILIZADOR
 // =============================
+// Remove um utilizador com base no ID
 async function eliminarUtilizador(id) {
-    if (!confirm("Tem a certeza que deseja eliminar este utilizador?")) return;
+    if (!confirm("Tem a certeza que deseja eliminar este utilizador?"))
+        return;
 
     try {
-        const response = await fetch(`${API_UTILIZADORES}/${id}`, { method: "DELETE" });
+        const response = await Session.authFetch(`${API_UTILIZADOR}/${id}`, {
+            method: "DELETE"
+        });
 
         if (!response.ok) {
             mostrarMensagem("Erro ao eliminar utilizador.", true);
@@ -87,7 +118,7 @@ async function eliminarUtilizador(id) {
         }
 
         mostrarMensagem("Utilizador removido.");
-        carregarUtilizadores();
+        carregarUtilizador();
 
     } catch (err) {
         console.error(err);
@@ -98,8 +129,9 @@ async function eliminarUtilizador(id) {
 // =============================
 // RENDERIZAR TABELA
 // =============================
+// Apresenta a lista de utilizadores na tabela HTML
 function renderTabela(lista) {
-    const tabela = document.getElementById("tabelaUtilizadores");
+    const tabela = document.getElementById("tabelaUtilizador");
     tabela.innerHTML = "";
 
     lista.forEach(u => {
@@ -111,10 +143,15 @@ function renderTabela(lista) {
             <td class="table__cell">${u.nome}</td>
             <td class="table__cell">${u.email}</td>
             <td class="table__cell">${u.perfil}</td>
-
             <td class="table__cell table__cell--acoes">
-                <button class="button button--small" onclick="editarUtilizador(${u.id})">Editar</button>
-                <button class="button button--danger" onclick="eliminarUtilizador(${u.id})">Eliminar</button>
+                <button class="button button--small"
+                        onclick="editarUtilizador(${u.id})">
+                    Editar
+                </button>
+                <button class="button button--danger"
+                        onclick="eliminarUtilizador(${u.id})">
+                    Eliminar
+                </button>
             </td>
         `;
 
@@ -124,8 +161,9 @@ function renderTabela(lista) {
 
 
 // =============================
-// MENSAGEM AO UTILIZADOR
+// MENSAGENS AO UTILIZADOR
 // =============================
+// Mostra mensagens de sucesso ou erro
 function mostrarMensagem(texto, erro = false) {
     const msg = document.getElementById("utilizadorMensagem");
     msg.textContent = texto;
@@ -137,6 +175,7 @@ function mostrarMensagem(texto, erro = false) {
 // =============================
 // PLACEHOLDER - EDITAR
 // =============================
+// Funcionalidade de edição futura
 function editarUtilizador(id) {
     alert("TODO: Implementar edição de utilizador.");
 }

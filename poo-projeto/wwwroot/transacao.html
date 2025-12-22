@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Codificação de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Título da página -->
+    <title>Gerir Transações</title>
+
+    <!-- Estilos globais -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+
+<!-- ================= CABEÇALHO ================= -->
+<header class="header">
+    <h1 class="header__title">Gerir Transações</h1>
+    <button class="button button--logout" onclick="logout()">Logout</button>
+</header>
+
+<!-- ================= CONTEÚDO PRINCIPAL ================= -->
+<main class="main">
+
+    <!-- ================= FORMULÁRIO ================= -->
+    <section class="section section--form">
+        <h2 class="section__title">Adicionar Transação</h2>
+
+        <!-- Formulário controlado por JavaScript -->
+        <form id="formTransacao" class="form">
+
+            <!-- Descrição -->
+            <div class="form__group">
+                <label>Descrição</label>
+                <input type="text" id="descricao" class="form__input" required>
+            </div>
+
+            <!-- Valor -->
+            <div class="form__group">
+                <label>Valor (€)</label>
+                <input type="number" id="valor" step="0.01" min="0.01" class="form__input" required>
+            </div>
+
+            <!-- Data -->
+            <div class="form__group">
+                <label>Data</label>
+                <input type="date" id="data" class="form__input" required>
+            </div>
+
+            <!-- Tipo -->
+            <div class="form__group">
+                <label>Tipo</label>
+                <select id="tipo" class="form__input" required>
+                    <option value="">-- Selecionar --</option>
+                    <option value="Receita">Receita</option>
+                    <option value="Despesa">Despesa</option>
+                </select>
+            </div>
+
+            <!-- Categoria -->
+            <div class="form__group">
+                <label>Categoria</label>
+                <select id="categoria" class="form__input">
+                    <option value="">— Sem categoria —</option>
+                </select>
+            </div>
+            
+            <!-- Botão de submissão -->
+            <button class="button" type="submit">Adicionar</button>
+        </form>
+
+        <!-- Mensagens ao utilizador -->
+        <p id="transacaoMensagem" class="form__message"></p>
+    </section>
+
+    <!-- ================= TABELA DE TRANSAÇÕES ================= -->
+    <section class="section section--table">
+        <h2 class="section__title">Lista de Transações</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição</th>
+                    <th>Valor (€)</th>
+                    <th>Data</th>
+                    <th>Categoria</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaTransacao"></tbody>
+        </table>
+    </section>
+
+</main>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="session.js"></script>
+<script src="logout.js"></script>
+<script src="transacao.js"></script>
+
+</body>
+</html>

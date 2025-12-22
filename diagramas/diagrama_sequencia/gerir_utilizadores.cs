@@ -7,7 +7,7 @@ namespace SistemaFinanceiro
         public string Email { get; set; }
 
         public List<Categoria> Categorias { get; private set; } = new();
-        public List<Transacao> Transacoes { get; private set; } = new();
+        public List<Transacao> Transacao { get; private set; } = new();
 
         public Utilizador(int id, string nome, string email)
         {
@@ -34,10 +34,10 @@ namespace SistemaFinanceiro
             if (categoria == null)
                 throw new Exception("Categoria não encontrada.");
 
-            int novoId = Transacoes.Count == 0 ? 1 : Transacoes.Max(t => t.Id) + 1;
+            int novoId = Transacao.Count == 0 ? 1 : Transacao.Max(t => t.Id) + 1;
 
             var transacao = new Transacao(novoId, valor, tipo, categoria);
-            Transacoes.Add(transacao);
+            Transacao.Add(transacao);
             return transacao;
         }
 
@@ -45,22 +45,22 @@ namespace SistemaFinanceiro
 
         public decimal CalcularSaldo()
         {
-            decimal entradas = Transacoes
+            decimal entradas = Transacao
                 .Where(t => t.Tipo == TipoTransacao.Entrada)
                 .Sum(t => t.Valor);
 
-            decimal saidas = Transacoes
+            decimal saidas = Transacao
                 .Where(t => t.Tipo == TipoTransacao.Saida)
                 .Sum(t => t.Valor);
 
             return entradas - saidas;
         }
 
-        public IEnumerable<Transacao> ListarTransacoes(bool ordenarDesc = true)
+        public IEnumerable<Transacao> ListarTransacao(bool ordenarDesc = true)
         {
             return ordenarDesc
-                ? Transacoes.OrderByDescending(t => t.Data)
-                : Transacoes.OrderBy(t => t.Data);
+                ? Transacao.OrderByDescending(t => t.Data)
+                : Transacao.OrderBy(t => t.Data);
         }
     }
 }

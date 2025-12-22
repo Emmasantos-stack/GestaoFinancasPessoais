@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Codificação de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Título da página -->
+    <title>Relatórios</title>
+
+    <!-- Estilos globais -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+
+<!-- ================= CABEÇALHO ================= -->
+<header class="header">
+    <h1 class="header__title">Relatórios Financeiros</h1>
+    <button class="button button--logout" onclick="logout()">Logout</button>
+</header>
+
+<!-- ================= CONTEÚDO PRINCIPAL ================= -->
+<main class="main">
+
+    <!-- ================= RESUMO GERAL ================= -->
+    <section class="section">
+        <h2 class="section__title">Resumo Geral</h2>
+
+        <div class="card">
+            <p><strong>Total de Receitas:</strong> <span id="totalReceitas">0 €</span></p>
+            <p><strong>Total de Despesas:</strong> <span id="totalDespesas">0 €</span></p>
+            <p><strong>Saldo:</strong> <span id="saldo">0 €</span></p>
+        </div>
+    </section>
+
+    <!-- ================= TABELA DE TRANSAÇÕES ================= -->
+    <section class="section section--table">
+        <h2 class="section__title">Transações</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Descrição</th>
+                    <th>Tipo</th>
+                    <th>Valor (€)</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+
+            <!-- Corpo da tabela preenchido via JavaScript -->
+            <tbody id="tabelaRelatorio"></tbody>
+        </table>
+    </section>
+
+</main>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="session.js"></script>
+<script src="logout.js"></script>
+<script src="relatorios.js"></script>
+</body>
+</html>

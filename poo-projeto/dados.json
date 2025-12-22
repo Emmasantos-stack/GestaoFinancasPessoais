@@ -12,18 +12,30 @@
       "Nome": "ana",
       "Email": "ana@gmail.com",
       "Password": "asd",
-      "Perfil": "a"
+      "Perfil": "Administrador"
+    },
+    {
+      "Id": 3,
+      "Nome": "joao",
+      "Email": "j@gmail.com",
+      "Password": "1234",
+      "Perfil": "Administrador"
     }
   ],
-  "Categoria": null,
-  "Transacoes": [
+  "Categoria": [
     {
       "Id": 1,
-      "Descricao": "Gasto",
-      "Valor": 10,
-      "Data": "2026-05-14T00:00:00",
-      "Tipo": 2,
-      "CategoriaId": null
+      "Nome": "123"
+    }
+  ],
+  "Transacao": [
+    {
+      "Id": 1,
+      "Descricao": "ola",
+      "Valor": 111,
+      "Data": "2025-11-11T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": 1
     }
   ]
 }

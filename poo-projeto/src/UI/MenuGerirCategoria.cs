@@ -4,8 +4,8 @@ using SistemaFinanceiro.Services;
 namespace SistemaFinanceiro.UI
 {
     /// <summary>
-    /// Menu de consola responsável pela gestão de Categoria.
-    /// Permite listar, criar, editar e remover Categoria.
+    /// Menu de consola responsável pela gestão de categorias.
+    /// Permite listar, criar, editar e remover categorias.
     /// </summary>
     public class MenuGerirCategoria
     {
@@ -16,9 +16,8 @@ namespace SistemaFinanceiro.UI
             _gerirCategoria = gerirCategoria;
         }
 
-        /// <summary>
-        /// Apresenta o menu principal de Categoria.
-        /// </summary>
+        // ---------------- MENU PRINCIPAL ----------------
+
         public void Abrir()
         {
             int opcao;
@@ -27,11 +26,11 @@ namespace SistemaFinanceiro.UI
             {
                 LimparConsola();
 
-                Console.WriteLine("===== GERIR Categoria =====");
-                Console.WriteLine("1 - Listar Categoria");
-                Console.WriteLine("2 - Criar Categoria");
-                Console.WriteLine("3 - Editar Categoria");
-                Console.WriteLine("4 - Remover Categoria");
+                Console.WriteLine("===== GERIR CATEGORIAS =====");
+                Console.WriteLine("1 - Listar categorias");
+                Console.WriteLine("2 - Criar categoria");
+                Console.WriteLine("3 - Editar categoria");
+                Console.WriteLine("4 - Remover categoria");
                 Console.WriteLine("0 - Voltar");
                 Console.Write("Opção: ");
 
@@ -48,30 +47,31 @@ namespace SistemaFinanceiro.UI
             } while (opcao != 0);
         }
 
-        // ----------------- OPÇÕES DO MENU -----------------
+        // ---------------- LISTAR ----------------
 
         private void Listar()
         {
             LimparConsola();
 
-            var Categoria = _gerirCategoria.ObterCategoria();
+            var categorias = _gerirCategoria.ObterTodas();
 
-            if (Categoria.Count == 0)
+            if (categorias.Count == 0)
             {
                 Console.WriteLine("Nenhuma categoria registada.");
             }
             else
             {
-                Console.WriteLine("Categoria existentes:");
-                foreach (var c in Categoria)
+                Console.WriteLine("Categorias existentes:\n");
+                foreach (var c in categorias)
                 {
                     Console.WriteLine($"{c.Id} - {c.Nome}");
                 }
             }
 
-            Console.WriteLine("\nPressione qualquer tecla para continuar...");
-            Console.ReadKey();
+            Pausa();
         }
+
+        // ---------------- CRIAR ----------------
 
         private void Criar()
         {
@@ -83,15 +83,24 @@ namespace SistemaFinanceiro.UI
             if (string.IsNullOrWhiteSpace(nome))
             {
                 Console.WriteLine("Nome inválido.");
-            }
-            else
-            {
-                _gerirCategoria.CriarCategoria(nome);
-                Console.WriteLine("Categoria criada com sucesso!");
+                Pausa();
+                return;
             }
 
-            Console.ReadKey();
+            try
+            {
+                _gerirCategoria.Criar(nome);
+                Console.WriteLine("Categoria criada com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao criar categoria: {ex.Message}");
+            }
+
+            Pausa();
         }
+
+        // ---------------- EDITAR ----------------
 
         private void Editar()
         {
@@ -99,7 +108,11 @@ namespace SistemaFinanceiro.UI
 
             Console.Write("ID da categoria: ");
             if (!int.TryParse(Console.ReadLine(), out int id))
+            {
+                Console.WriteLine("ID inválido.");
+                Pausa();
                 return;
+            }
 
             Console.Write("Novo nome: ");
             string? nome = Console.ReadLine();
@@ -110,12 +123,16 @@ namespace SistemaFinanceiro.UI
             }
             else
             {
-                bool ok = _gerirCategoria.EditarCategoria(id, nome);
-                Console.WriteLine(ok ? "Categoria alterada!" : "Categoria não encontrada!");
+                bool ok = _gerirCategoria.Editar(id, nome);
+                Console.WriteLine(ok
+                    ? "Categoria alterada com sucesso!"
+                    : "Categoria não encontrada!");
             }
 
-            Console.ReadKey();
+            Pausa();
         }
+
+        // ---------------- REMOVER ----------------
 
         private void Remover()
         {
@@ -123,30 +140,31 @@ namespace SistemaFinanceiro.UI
 
             Console.Write("ID da categoria: ");
             if (!int.TryParse(Console.ReadLine(), out int id))
+            {
+                Console.WriteLine("ID inválido.");
+                Pausa();
                 return;
+            }
 
-            bool ok = _gerirCategoria.RemoverCategoria(id);
-            Console.WriteLine(ok ? "Categoria removida!" : "Categoria não encontrada!");
+            bool ok = _gerirCategoria.Remover(id);
+            Console.WriteLine(ok
+                ? "Categoria removida com sucesso!"
+                : "Categoria não encontrada!");
 
-            Console.ReadKey();
+            Pausa();
         }
 
-        // ----------------- UTILITÁRIOS -----------------
+        // ---------------- UTILITÁRIOS ----------------
 
-        /// <summary>
-        /// Limpa a consola de forma segura.
-        /// Evita exceções quando a aplicação não tem consola associada.
-        /// </summary>
         private void LimparConsola()
         {
-            try
-            {
-                Console.Clear();
-            }
-            catch
-            {
-                // Ignorar erro de consola
-            }
+            try { Console.Clear(); } catch { }
+        }
+
+        private void Pausa()
+        {
+            Console.WriteLine("\nPressione qualquer tecla para continuar...");
+            Console.ReadKey();
         }
     }
 }

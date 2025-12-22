@@ -8,23 +8,39 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anafl\\.nuget\\packages\\": {},
+<<<<<<< HEAD
+    "C:\\Users\\santo\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+>>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\santo\\OneDrive\\Ambiente de Trabalho\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
       "projectName": "poo-projeto",
-      "projectPath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
-      "packagesPath": "C:\\Users\\anafl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\",
+      "projectPath": "C:\\Users\\santo\\OneDrive\\Ambiente de Trabalho\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+      "packagesPath": "C:\\Users\\santo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\santo\\OneDrive\\Ambiente de Trabalho\\GestaoFinancasPessoais\\poo-projeto\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+      "projectName": "poo-projeto",
+      "projectPath": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\obj\\",
+>>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\anafl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+        "C:\\Users\\santo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +91,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+>>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
       }
     }
   }

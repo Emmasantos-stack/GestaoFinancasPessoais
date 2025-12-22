@@ -6,11 +6,10 @@ using SistemaFinanceiro.Models;
 namespace SistemaFinanceiro.Services
 {
     // Classe responsável pela geração de relatórios financeiros.
-    // Permite calcular receitas, despesas e o saldo final
-    // com base numa lista de transações.
+    // Permite calcular receitas, despesas, saldo e filtrar transações por categoria. 
     public class GerarRelatorio
     {
-        // Lista de transações usada no relatório
+        // Lista de transações utilizada para gerar o relatório
         private readonly List<Transacao> _transacoes;
 
         // Construtor da classe GerarRelatorio
@@ -21,7 +20,7 @@ namespace SistemaFinanceiro.Services
         }
 
         // Calcula o total das receitas
-        // Soma todas as transações do tipo Receita
+        // Soma os valores de todas as transações do tipo Receita
         public double TotalReceitas()
         {
             return _transacoes
@@ -38,15 +37,14 @@ namespace SistemaFinanceiro.Services
                 .Sum(t => t.Valor);
         }
 
-        // Calcula o saldo final
-        // Diferença entre receitas e despesas
+         // Calcula o saldo atual.
+        // O saldo corresponde à diferença entre receitas e despesas.
         public double CalcularSaldo()
         {
             return TotalReceitas() - TotalDespesas();
         }
 
-        // Devolve as transações associadas a uma categoria
-        // usando o identificador da categoria
+        // Devolve todas as transações associadas a uma determinada categoria.
         public IEnumerable<Transacao> TransacoesPorCategoria(int categoriaId)
         {
             return _transacoes
@@ -54,6 +52,7 @@ namespace SistemaFinanceiro.Services
         }
 
         // Apresenta o relatório financeiro no terminal
+         // Mostra todas as transações, bem como totais e saldo.
         public void MostrarRelatorio()
         {
             Console.WriteLine("===== RELATÓRIO FINANCEIRO =====\n");

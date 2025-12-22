@@ -12,7 +12,7 @@ namespace SistemaFinanceiro.Services
         {
             public List<Utilizador> Utilizadores { get; set; } = new();
             public List<Categoria> Categoria { get; set; } = new();
-            public List<Transacao> Transacoes { get; set; } = new();
+            public List<Transacao> Transacao { get; set; } = new();
         }
 
         // -------------------------------
@@ -21,13 +21,13 @@ namespace SistemaFinanceiro.Services
         public static void Guardar(
             List<Utilizador> utilizadores,
             List<Categoria> Categoria,
-            List<Transacao> transacoes)
+            List<Transacao> Transacao)
         {
             var dados = new Dados
             {
                 Utilizadores = utilizadores,
                 Categoria = Categoria,
-                Transacoes = transacoes
+                Transacao = Transacao
             };
 
             var json = JsonSerializer.Serialize(dados, new JsonSerializerOptions
@@ -44,13 +44,13 @@ namespace SistemaFinanceiro.Services
         public static void Carregar(
             out List<Utilizador> utilizadores,
             out List<Categoria> Categoria,
-            out List<Transacao> transacoes)
+            out List<Transacao> Transacao)
         {
             if (!File.Exists(Ficheiro))
             {
                 utilizadores = new();
                 Categoria = new();
-                transacoes = new();
+                Transacao = new();
                 return;
             }
 
@@ -59,10 +59,10 @@ namespace SistemaFinanceiro.Services
 
             utilizadores = dados?.Utilizadores ?? new();
             Categoria = dados?.Categoria ?? new();
-            transacoes = dados?.Transacoes ?? new();
+            Transacao = dados?.Transacao ?? new();
         }
 
-        internal static void Guarda(List<Utilizador> utilizadores, List<Categoria> Categoria, List<Transacao> transacoes)
+        internal static void Guarda(List<Utilizador> utilizadores, List<Categoria> Categoria, List<Transacao> Transacao)
         {
             throw new NotImplementedException();
         }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!-- Definição do conjunto de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Título apresentado no separador do navegador -->
+    <title>Gerir Utilizadores</title>
+
+    <!-- Ligação ao ficheiro de estilos principal -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+
+    <!-- ================= CABEÇALHO ================= -->
+    <header class="header">
+        <!-- Título da página -->
+        <h1 class="header__title">Gerir Utilizadores</h1>
+
+        <!-- Botão para terminar sessão -->
+        <button class="button button--logout" onclick="logout()">
+            Logout
+        </button>
+    </header>
+
+    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+    <main class="main">
+
+        <!-- ================= FORMULÁRIO ================= -->
+        <section class="section section--form">
+            <h2 class="section__title">Adicionar Utilizador</h2>
+
+            <!-- Formulário controlado via JavaScript -->
+            <form id="formUtilizador" class="form">
+
+                <!-- Nome do utilizador -->
+                <div class="form__group">
+                    <label class="form__label">Nome</label>
+                    <input type="text"
+                           id="nome"
+                           class="form__input"
+                           required>
+                </div>
+
+                <!-- Email -->
+                <div class="form__group">
+                    <label class="form__label">Email</label>
+                    <input type="email"
+                           id="email"
+                           class="form__input"
+                           required>
+                </div>
+
+                <!-- Password -->
+                <div class="form__group">
+                    <label class="form__label">Password</label>
+                    <input type="password"
+                           id="password"
+                           class="form__input"
+                           required
+                           minlength="4">
+                </div>
+
+                <!-- Perfil do utilizador -->
+                <div class="form__group">
+                    <label class="form__label">Perfil</label>
+                    <select id="perfil" class="form__input">
+                        <option value="admin">Administrador</option>
+                        <option value="user">Utilizador</option>
+                    </select>
+                </div>
+
+                <!-- Botão de submissão -->
+                <button class="button" type="submit">
+                    Criar Utilizador
+                </button>
+            </form>
+
+            <!-- Mensagens de erro ou sucesso -->
+            <p id="utilizadorMensagem" class="form__message"></p>
+        </section>
+
+        <!-- ================= TABELA ================= -->
+        <section class="section section--table">
+            <h2 class="section__title">Lista de Utilizadores</h2>
+
+            <!-- Tabela de utilizadores -->
+            <table class="table">
+
+                <!-- Cabeçalho da tabela -->
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__cell">ID</th>
+                        <th class="table__cell">Nome</th>
+                        <th class="table__cell">Email</th>
+                        <th class="table__cell">Perfil</th>
+                        <th class="table__cell">Ações</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo da tabela preenchido dinamicamente -->
+                <tbody id="tabelaUtilizador" class="table__body"></tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- ================= SCRIPTS ================= -->
+    <!-- Gestão de sessão -->
+    <script src="session.js"></script>
+
+    <!-- Logout -->
+    <script src="logout.js"></script>
+
+    <!-- Lógica da página de utilizadores -->
+    <script src="utilizador.js"></script>
+
+</body>
+</html>

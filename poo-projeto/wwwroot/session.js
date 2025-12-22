@@ -1,6 +1,8 @@
 // ---------------------------------------------------------
 // session.js
-// Responsável por gerir a sessão do utilizador no browser.Guarda token e dados do utilizador no localStorage. Fornece uma função de fetch autenticado.
+// Responsável por gerir a sessão do utilizador no browser.
+// Guarda token e dados do utilizador no localStorage.
+// Fornece uma função de fetch autenticado.
 // ---------------------------------------------------------
 
 // Chaves usadas no localStorage
@@ -10,21 +12,21 @@ const SESSION_STORAGE_USER_KEY = "gf_user";
 // ---------------------------------------------------------
 // Guarda o token de autenticação
 // ---------------------------------------------------------
-export function setToken(token) {
+function setToken(token) {
   localStorage.setItem(SESSION_STORAGE_TOKEN_KEY, token);
 }
 
 // ---------------------------------------------------------
 // Obtém o token guardado (ou null se não existir)
 // ---------------------------------------------------------
-export function getToken() {
+function getToken() {
   return localStorage.getItem(SESSION_STORAGE_TOKEN_KEY);
 }
 
 // ---------------------------------------------------------
 // Remove o token e os dados do utilizador (logout)
 // ---------------------------------------------------------
-export function clearToken() {
+function clearToken() {
   localStorage.removeItem(SESSION_STORAGE_TOKEN_KEY);
   localStorage.removeItem(SESSION_STORAGE_USER_KEY);
 }
@@ -32,7 +34,7 @@ export function clearToken() {
 // ---------------------------------------------------------
 // Guarda os dados do utilizador autenticado
 // ---------------------------------------------------------
-export function setUser(user) {
+function setUser(user) {
   localStorage.setItem(
     SESSION_STORAGE_USER_KEY,
     JSON.stringify(user)
@@ -42,7 +44,7 @@ export function setUser(user) {
 // ---------------------------------------------------------
 // Obtém os dados do utilizador autenticado
 // ---------------------------------------------------------
-export function getUser() {
+function getUser() {
   const v = localStorage.getItem(SESSION_STORAGE_USER_KEY);
   return v ? JSON.parse(v) : null;
 }
@@ -56,7 +58,7 @@ export function getUser() {
  * Caso o token exista.
  * ---------------------------------------------------------
  */
-export async function authFetch(input, init = {}) {
+async function authFetch(input, init = {}) {
 
   // Obtém o token da sessão
   const token = getToken();
@@ -78,7 +80,7 @@ export async function authFetch(input, init = {}) {
 
 // ---------------------------------------------------------
 // Exposição global para scripts não modulares
-// (ex: login.js)
+// (ex: login.js, utilizador.js, categoria.js)
 // ---------------------------------------------------------
 window.Session = {
   setToken,

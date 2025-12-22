@@ -1,5 +1,5 @@
 // Define o namespace do projeto, usado para organizar o código
-namespace SistemaFinanceiro
+namespace SistemaFinanceiro.Models
 {
     // Enumeração usada para definir os tipos possíveis de uma transação
     // Serve para evitar erros de escrita como "Reseita" ou "Despessa"

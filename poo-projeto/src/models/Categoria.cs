@@ -14,7 +14,7 @@ namespace SistemaFinanceiro.Models
         // Construtor vazio
         // Necessário para desserialização (ex.: JSON)
         public Categoria() { }
-
+#pragma warning restore CS8618
 
         // Construtor com parâmetros
         public Categoria(int id, string nome)

@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("poo-projeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec58fcab6fffb9dfaec30f084eff497844f06679")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0bedf63bc2f9328bece1d533b3f01b05f696a1a")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d72991511e9f721afe10d248d3e6d0f1c781344d")]
 [assembly: System.Reflection.AssemblyProductAttribute("poo-projeto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("poo-projeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
