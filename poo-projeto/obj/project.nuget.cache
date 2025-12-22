@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b8GeD8FuwOk=",
+  "dgSpecHash": "/VWuiZXHbr8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
+  "projectFilePath": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7lmcfy6gd4</Fingerprint>
-      <Integrity>pWvBHPZKU2/rOURb/BEnBt6eBMAvVZQ0u+ODgrNi0iY=</Integrity>
+      <Fingerprint>vk7vm3a78s</Fingerprint>
+      <Integrity>H1pMZ8PDm+1ujy2+lxmJT0TkmAx3ELlweAMtuhrHbgI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\categoria.html'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kbccffv1cx</Fingerprint>
-      <Integrity>oPuVJepDowS/WAOwqRy7nF+WMYXn7DYYCKe+m9g05NI=</Integrity>
+      <Fingerprint>c5v5e5o3w4</Fingerprint>
+      <Integrity>8G4E4Wuy/Ft0fNT1DNs3ljPIsOkztsYt67eyUOJHJCA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\categoria.js'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4eblu0g0yn</Fingerprint>
-      <Integrity>7Arf0Q0oE9QpAANm5ZCJAZULNLYqxhqaEVhx3D8surg=</Integrity>
+      <Fingerprint>teg2am8eur</Fingerprint>
+      <Integrity>lSEGyt5gydd79yY6jEunFJZ2EFUCOZptgQeH7h+5Tpg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ge6odwxu8q</Fingerprint>
-      <Integrity>mIyAxMFN2ELUjw3F3UA3ZF4zamZEx1m/6lvuZtKAbV4=</Integrity>
+      <Fingerprint>jdkaeo0tr5</Fingerprint>
+      <Integrity>WQzGn38291e2epjq0SQq+qAuwOGsUfqE3G8Zu/jZLsU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ywhux5prl8</Fingerprint>
-      <Integrity>zgTp8CurCFr08/n1ZJ6gekLjEHxKW83kyVaVnc8o6Os=</Integrity>
+      <Fingerprint>0wlw3toy84</Fingerprint>
+      <Integrity>0K1uTuoxu+0Cd1oPV5806ADGhFCNN8g/RHlJN2ngscc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.html'))</OriginalItemSpec>
@@ -102,11 +102,101 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2rtx7t4t54</Fingerprint>
-      <Integrity>3o/OF4jGUVV1uWQx/33cNw6QjizuD0XvFjLOv9er+Ts=</Integrity>
+      <Fingerprint>yiot5ox2ii</Fingerprint>
+      <Integrity>ajbM82+Jjhtg/4jcpX10cN4RDsZ4xbvim5v/eIx5TGo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logout.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>poo-projeto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/poo-projeto</BasePath>
+      <RelativePath>logout.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mgpi4sbaoh</Fingerprint>
+      <Integrity>mgqC2A+Jizq/mJxbTrctjqMRAIqO0Vxt8k9AHdLeoxc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logout.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\registo.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>poo-projeto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/poo-projeto</BasePath>
+      <RelativePath>registo.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>69r6xbdh4m</Fingerprint>
+      <Integrity>eqyJua1zrRIJ5M6E2rtHAQnPiX9aRqNd1hbtFlT1B4s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\registo.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\registo.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>poo-projeto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/poo-projeto</BasePath>
+      <RelativePath>registo.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihwv3qb4dc</Fingerprint>
+      <Integrity>yg4MyZf3GCusqYzWojju7wqNckBcqXJxVpCpItgFXc4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\registo.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\relatorios.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>poo-projeto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/poo-projeto</BasePath>
+      <RelativePath>relatorios.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1oilynqhs4</Fingerprint>
+      <Integrity>P7Ae4/wYda35lWakS88sV4BJytbOtfFrqnpffNvPuvU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\relatorios.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\relatorios.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>poo-projeto</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/poo-projeto</BasePath>
+      <RelativePath>relatorios.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8091womn87</Fingerprint>
+      <Integrity>KHxkSAiKW+X3chPyjGRUkLwfs5EhVQc2hfmKHrkyz0I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\relatorios.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\session.js'))">
       <SourceType>Package</SourceType>
@@ -120,83 +210,83 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7zbktb2606</Fingerprint>
-      <Integrity>o2KmE0byaEhaH2M2p6szyiGjW8h+hlX18G6uaQDx4jM=</Integrity>
+      <Fingerprint>c7ajqkk69t</Fingerprint>
+      <Integrity>aKTccw11d7NPXbmq/5J7dKsM9B198iVNTppj0VB1y0k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\session.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transações.html'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transacao.html'))">
       <SourceType>Package</SourceType>
       <SourceId>poo-projeto</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/poo-projeto</BasePath>
-      <RelativePath>transações.html</RelativePath>
+      <RelativePath>transacao.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5dscpra9k1</Fingerprint>
-      <Integrity>mf9Xi6YdwZU6YMHJFYf1J0NArImV5Dq/lG0tLCBoPYo=</Integrity>
+      <Fingerprint>4dziwh8h2w</Fingerprint>
+      <Integrity>eLgcQ8e3XJrUNHdbbhNlcmXXTs91WRTkvPmhmx0d2Gw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transações.html'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transacao.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transações.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transacao.js'))">
       <SourceType>Package</SourceType>
       <SourceId>poo-projeto</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/poo-projeto</BasePath>
-      <RelativePath>transações.js</RelativePath>
+      <RelativePath>transacao.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9pc8dta2fz</Fingerprint>
-      <Integrity>syxKka4KaiiB+jdtYNrX+0CMgonaKJP/58qqpzu35w0=</Integrity>
+      <Fingerprint>5uxinpwl12</Fingerprint>
+      <Integrity>zTYLMoevqEESamn4wCdudMzxv7HPVakpB1Vq3DT5eHw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transações.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\transacao.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizadores.html'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizador.html'))">
       <SourceType>Package</SourceType>
       <SourceId>poo-projeto</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/poo-projeto</BasePath>
-      <RelativePath>utilizadores.html</RelativePath>
+      <RelativePath>utilizador.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ge28g7hw40</Fingerprint>
-      <Integrity>KFq2vHtyxL5vF5y0iF4WFvoiH15Kn/KJd9YURtkpR3E=</Integrity>
+      <Fingerprint>2kj6f79kjy</Fingerprint>
+      <Integrity>ftzgOrjeF9W+/PZD4+WUa2AyTpWPKV6lnJ17XCTHnz8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizadores.html'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizador.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizadores.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizador.js'))">
       <SourceType>Package</SourceType>
       <SourceId>poo-projeto</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/poo-projeto</BasePath>
-      <RelativePath>utilizadores.js</RelativePath>
+      <RelativePath>utilizador.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o49on757m0</Fingerprint>
-      <Integrity>yLhx/FxWkrf7b87tO/UU1oUIvBxeZul5g894q9Jc92s=</Integrity>
+      <Fingerprint>dnxby9fmkd</Fingerprint>
+      <Integrity>GRUzX+6itH8y3Fi0HiCSiJiZuK28fzUJyKzokUqoxqI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizadores.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\utilizador.js'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

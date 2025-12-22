@@ -1,48 +1,68 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
       "PackagePath": "staticwebassets\\categoria.html"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
       "PackagePath": "staticwebassets\\categoria.js"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
       "PackagePath": "staticwebassets\\login.js"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "PackagePath": "staticwebassets\\logout.js"
+    },
+    {
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "PackagePath": "staticwebassets\\registo.html"
+    },
+    {
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "PackagePath": "staticwebassets\\registo.js"
+    },
+    {
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "PackagePath": "staticwebassets\\relatorios.html"
+    },
+    {
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "PackagePath": "staticwebassets\\relatorios.js"
+    },
+    {
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
       "PackagePath": "staticwebassets\\session.js"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.html",
-      "PackagePath": "staticwebassets\\transações.html"
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
+      "PackagePath": "staticwebassets\\transacao.html"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transações.js",
-      "PackagePath": "staticwebassets\\transações.js"
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "PackagePath": "staticwebassets\\transacao.js"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.html",
-      "PackagePath": "staticwebassets\\utilizadores.html"
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "PackagePath": "staticwebassets\\utilizador.html"
     },
     {
-      "Id": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizadores.js",
-      "PackagePath": "staticwebassets\\utilizadores.js"
+      "Id": "c:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "PackagePath": "staticwebassets\\utilizador.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.poo-projeto.props",

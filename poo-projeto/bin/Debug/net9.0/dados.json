@@ -1,0 +1,41 @@
+{
+  "Utilizadores": [
+    {
+      "Id": 1,
+      "Nome": "Daniel",
+      "Email": "dp9069501@gmail.com",
+      "Password": "1234",
+      "Perfil": "Administrador"
+    },
+    {
+      "Id": 2,
+      "Nome": "ana",
+      "Email": "ana@gmail.com",
+      "Password": "asd",
+      "Perfil": "Administrador"
+    },
+    {
+      "Id": 3,
+      "Nome": "joao",
+      "Email": "j@gmail.com",
+      "Password": "1234",
+      "Perfil": "Administrador"
+    }
+  ],
+  "Categoria": [
+    {
+      "Id": 1,
+      "Nome": "hiii"
+    }
+  ],
+  "Transacao": [
+    {
+      "Id": 1,
+      "Descricao": "sadsads",
+      "Valor": 222,
+      "Data": "2024-11-10T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": null
+    }
+  ]
+}
