@@ -1,17 +1,24 @@
 // =============================
 // UTILIZADOR.JS
-// Gestão de utilizador via API REST (autenticada)
+// Gestão de utilizadores via API REST (autenticada)
 // =============================
+
+// Obtém o utilizador autenticado da sessão
 const user = Session.getUser();
+
+// Caso não exista sessão ativa, redireciona para o login
 if (!user) {
     window.location.href = "login.html";
 }
 
+// Endpoint base da API de utilizadores
 const API_UTILIZADOR = "/api/utilizador";
 
+// Executado quando a página termina de carregar
 document.addEventListener("DOMContentLoaded", () => {
 
-    // (Opcional mas recomendado) restringir a admins
+    // Restrição de acesso (opcional mas recomendada)
+    // Apenas utilizadores com perfil Admin podem aceder
     const user = Session.getUser();
     if (user && user.perfil !== "Admin") {
         alert("Acesso restrito a administradores.");
@@ -19,8 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
+    // Carrega a lista de utilizadores existentes
     carregarUtilizador();
 
+    // Associa o evento de submissão do formulário
     document
         .getElementById("formUtilizador")
         .addEventListener("submit", criarUtilizador);
@@ -30,19 +39,23 @@ document.addEventListener("DOMContentLoaded", () => {
 // =============================
 // CRIAR UTILIZADOR
 // =============================
+// Envia um pedido POST para criar um novo utilizador
 async function criarUtilizador(event) {
     event.preventDefault();
 
+    // Obtém os valores introduzidos no formulário
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
     const perfil = document.getElementById("perfil").value;
 
+    // Validação básica dos campos
     if (!nome || !email || !password) {
         mostrarMensagem("Preencha todos os campos.", true);
         return;
     }
 
+    // Objeto a enviar para a API
     const novoUser = { nome, email, password, perfil };
 
     try {
@@ -52,11 +65,13 @@ async function criarUtilizador(event) {
             body: JSON.stringify(novoUser)
         });
 
+        // Caso a API devolva erro
         if (!response.ok) {
             mostrarMensagem("Erro ao criar utilizador.", true);
             return;
         }
 
+        // Sucesso
         mostrarMensagem("Utilizador criado com sucesso!");
         document.getElementById("formUtilizador").reset();
         carregarUtilizador();
@@ -69,8 +84,9 @@ async function criarUtilizador(event) {
 
 
 // =============================
-// CARREGAR UTILIZADOR
+// CARREGAR UTILIZADORES
 // =============================
+// Obtém todos os utilizadores da API
 async function carregarUtilizador() {
     try {
         const response = await Session.authFetch(API_UTILIZADOR);
@@ -86,6 +102,7 @@ async function carregarUtilizador() {
 // =============================
 // ELIMINAR UTILIZADOR
 // =============================
+// Remove um utilizador com base no ID
 async function eliminarUtilizador(id) {
     if (!confirm("Tem a certeza que deseja eliminar este utilizador?"))
         return;
@@ -112,6 +129,7 @@ async function eliminarUtilizador(id) {
 // =============================
 // RENDERIZAR TABELA
 // =============================
+// Apresenta a lista de utilizadores na tabela HTML
 function renderTabela(lista) {
     const tabela = document.getElementById("tabelaUtilizador");
     tabela.innerHTML = "";
@@ -145,6 +163,7 @@ function renderTabela(lista) {
 // =============================
 // MENSAGENS AO UTILIZADOR
 // =============================
+// Mostra mensagens de sucesso ou erro
 function mostrarMensagem(texto, erro = false) {
     const msg = document.getElementById("utilizadorMensagem");
     msg.textContent = texto;
@@ -156,6 +175,7 @@ function mostrarMensagem(texto, erro = false) {
 // =============================
 // PLACEHOLDER - EDITAR
 // =============================
+// Funcionalidade de edição futura
 function editarUtilizador(id) {
     alert("TODO: Implementar edição de utilizador.");
 }
