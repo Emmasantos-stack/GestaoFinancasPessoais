@@ -1,29 +1,37 @@
 // =============================
-// REGISTO.JS
-// Página de criação de conta
+// registo.js
+// Responsável pela criação de novas contas de utilizador
 // =============================
 
+// Endpoint da API de utilizadores
 const API_UTILIZADOR = "/api/utilizador";
 
+// Associa o evento de submissão ao formulário
 document.addEventListener("DOMContentLoaded", () => {
     document
         .getElementById("formRegisto")
         .addEventListener("submit", criarConta);
 });
 
+/**
+ * Cria uma nova conta de utilizador
+ */
 async function criarConta(event) {
     event.preventDefault();
 
+    // Obtém os valores introduzidos
     const nome = document.getElementById("nome").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value;
     const perfil = "Utilizador";
 
+    // Validação básica
     if (!nome || !email || !password) {
         mostrarMensagem("Preencha todos os campos.", true);
         return;
     }
 
+    // Objeto enviado para a API
     const novoUser = { nome, email, password, perfil };
 
     try {
@@ -40,6 +48,7 @@ async function criarConta(event) {
 
         mostrarMensagem("Conta criada com sucesso! Redirecionando...");
 
+        // Redireciona para login
         setTimeout(() => {
             window.location.href = "login.html";
         }, 1200);
@@ -50,6 +59,9 @@ async function criarConta(event) {
     }
 }
 
+/**
+ * Mostra mensagens ao utilizador
+ */
 function mostrarMensagem(texto, erro = false) {
     const msg = document.getElementById("registoMensagem");
     msg.textContent = texto;

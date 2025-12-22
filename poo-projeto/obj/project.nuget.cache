@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "XYk369hSrp4=",
+  "dgSpecHash": "b8GeD8FuwOk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
+  "projectFilePath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "filePath": "C:\\Users\\dp906\\Documents\\GitHub\\GestaoFinancasPessoaisX\\poo-projeto\\poo-projeto.csproj",
+      "targetGraphs": []
     }
   ]
 }

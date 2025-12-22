@@ -25,8 +25,17 @@
   "Categoria": [
     {
       "Id": 1,
-      "Nome": "123"
+      "Nome": "hiii"
     }
   ],
-  "Transacao": []
+  "Transacao": [
+    {
+      "Id": 1,
+      "Descricao": "ola",
+      "Valor": 111,
+      "Data": "2025-11-11T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": 1
+    }
+  ]
 }

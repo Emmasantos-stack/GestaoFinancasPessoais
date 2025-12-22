@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <!-- Codificação de caracteres -->
     <meta charset="UTF-8">
+
+    <!-- Configuração para layout responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da aplicação -->
     <title>Gestão de Finanças Pessoais</title>
 
-    <!-- CSS principal -->
+    <!-- Folha de estilos principal -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,11 +19,13 @@
     <!-- ================= CABEÇALHO ================= -->
     <header class="header">
         <h1 class="header__title">Gestão de Finanças Pessoais</h1>
+
+        <!-- Subtítulo explicativo -->
         <p class="header__subtitle">
             Gerir categorias, transações e relatórios financeiros
         </p>
 
-        <!-- BOTÃO LOGOUT -->
+        <!-- Botão de logout -->
         <button class="button button--logout" onclick="logout()">
             Logout
         </button>
@@ -32,11 +39,13 @@
                     Gerir Categorias
                 </a>
             </li>
+
             <li class="nav__item">
                 <a href="transacao.html" class="nav__link">
                     Gerir Transações
                 </a>
             </li>
+
             <li class="nav__item">
                 <a href="relatorios.html" class="nav__link">
                     Relatórios
@@ -63,10 +72,14 @@
     </footer>
 
     <!-- ================= SCRIPTS ================= -->
+    <!-- Gestão de sessão -->
     <script src="session.js"></script>
+
+    <!-- Logout do utilizador -->
     <script src="logout.js"></script>
 
-    <!-- 🔐 PROTEÇÃO DE ACESSO -->
+    <!-- Proteção de acesso:
+         redireciona para login se não houver sessão ativa -->
     <script>
         if (!Session.getToken()) {
             window.location.href = "login.html";

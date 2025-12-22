@@ -73,7 +73,7 @@ namespace SistemaFinanceiro.UI
                 break;
 
             case 3:
-                new MenuGerirtransacao(
+                new MenuGerirTransacao(
                     _gerirTransacao,
                     _gerirCategoria
                 ).Abrir();
