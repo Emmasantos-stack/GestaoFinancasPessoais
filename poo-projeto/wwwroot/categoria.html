@@ -4,13 +4,13 @@
     <!-- Definição do conjunto de caracteres -->
     <meta charset="UTF-8">
 
-    <!-- Configuração para layout responsivo -->
+    <!-- Configuração para layout responsivo em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Título da página -->
+    <!-- Título apresentado no separador do navegador -->
     <title>Gerir Categoria</title>
 
-    <!-- Ligação ao ficheiro CSS principal -->
+    <!-- Ligação ao ficheiro de estilos global -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,11 +18,15 @@
 
     <!-- =====================================================
          HEADER
-         Contém o título da página e link para voltar ao menu
+         Apresenta o título da página e ligação de retorno
          ===================================================== -->
     <header class="header">
         <h1 class="header__title">Gerir Categoria</h1>
-        <a href="index.html" class="header__back">← Voltar ao Início</a>
+
+        <!-- Link para regressar à página principal -->
+        <a href="index.html" class="header__back">
+            ← Voltar ao Início
+        </a>
     </header>
 
     <!-- =====================================================
@@ -31,7 +35,7 @@
     <main class="main">
 
         <!-- -------------------------------------------------
-             FORMULÁRIO PARA CRIAR NOVA CATEGORIA
+             FORMULÁRIO DE CRIAÇÃO DE CATEGORIA
              ------------------------------------------------- -->
         <section class="section section--form">
             <h2 class="section__title">Criar Nova Categoria</h2>
@@ -39,9 +43,12 @@
             <!-- Formulário controlado por JavaScript -->
             <form id="formCategoria" class="form form--categoria">
 
-                <!-- Campo para o nome da categoria -->
+                <!-- Campo para introdução do nome -->
                 <div class="form__group">
-                    <label for="nomeCategoria" class="form__label">Nome:</label>
+                    <label for="nomeCategoria" class="form__label">
+                        Nome:
+                    </label>
+
                     <input
                         type="text"
                         id="nomeCategoria"
@@ -56,17 +63,17 @@
                 </button>
             </form>
 
-            <!-- Mensagens de erro ou sucesso -->
+            <!-- Zona para mensagens de erro ou sucesso -->
             <p id="categoriaMensagem" class="message"></p>
         </section>
 
         <!-- -------------------------------------------------
-             LISTAGEM DE Categoria EXISTENTES
+             LISTAGEM DE CATEGORIAS EXISTENTES
              ------------------------------------------------- -->
         <section class="section section--lista">
-            <h2 class="section__title">Categoria Existentes</h2>
+            <h2 class="section__title">Categorias Existentes</h2>
 
-            <!-- Tabela para apresentar Categoria -->
+            <!-- Tabela de categorias -->
             <table class="table table--Categoria">
 
                 <!-- Cabeçalho da tabela -->
@@ -78,9 +85,9 @@
                     </tr>
                 </thead>
 
-                <!-- Corpo da tabela preenchido dinamicamente via JS -->
+                <!-- Corpo preenchido dinamicamente -->
                 <tbody id="tabelaCategoria" class="table__body">
-                    <!-- Conteúdo gerado pelo ficheiro Categoria.js -->
+                    <!-- Conteúdo gerado via JavaScript -->
                 </tbody>
             </table>
         </section>
@@ -91,13 +98,18 @@
          RODAPÉ
          ===================================================== -->
     <footer class="footer">
-        <p class="footer__text">Projeto POO — Gestão de Finanças</p>
+        <p class="footer__text">
+            Projeto POO — Gestão de Finanças
+        </p>
     </footer>
+
+    <!-- Gestão de sessão -->
     <script src="session.js"></script>
 
     <!-- Logout -->
     <script src="logout.js"></script>
-    <!-- Script responsável pela lógica da página -->
+
+    <!-- Lógica da página de categorias -->
     <script src="categoria.js"></script>
 </body>
 </html>
