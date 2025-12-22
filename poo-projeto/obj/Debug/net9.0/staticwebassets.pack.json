@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.html",
+      "PackagePath": "staticwebassets\\categoria.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\categoria.js",
+      "PackagePath": "staticwebassets\\categoria.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\login.js",
+      "PackagePath": "staticwebassets\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\logout.js",
+      "PackagePath": "staticwebassets\\logout.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.html",
+      "PackagePath": "staticwebassets\\registo.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\registo.js",
+      "PackagePath": "staticwebassets\\registo.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.html",
+      "PackagePath": "staticwebassets\\relatorios.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\relatorios.js",
+      "PackagePath": "staticwebassets\\relatorios.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\session.js",
+      "PackagePath": "staticwebassets\\session.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.html",
+      "PackagePath": "staticwebassets\\transacao.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\transacao.js",
+      "PackagePath": "staticwebassets\\transacao.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.html",
+      "PackagePath": "staticwebassets\\utilizador.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\wwwroot\\utilizador.js",
+      "PackagePath": "staticwebassets\\utilizador.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.poo-projeto.props",
+      "PackagePath": "build\\poo-projeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.poo-projeto.props",
+      "PackagePath": "buildMultiTargeting\\poo-projeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.poo-projeto.props",
+      "PackagePath": "buildTransitive\\poo-projeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.poo-projeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.poo-projeto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
