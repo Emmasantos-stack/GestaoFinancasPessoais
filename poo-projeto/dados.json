@@ -20,6 +20,20 @@
       "Email": "j@gmail.com",
       "Password": "1234",
       "Perfil": "Administrador"
+    },
+    {
+      "Id": 4,
+      "Nome": "emanuela",
+      "Email": "emanuelatfsantos@gmail.com",
+      "Password": "fred1983",
+      "Perfil": "user"
+    },
+    {
+      "Id": 5,
+      "Nome": "emanuela",
+      "Email": "emanuelatchissolene@gmail.com",
+      "Password": "fred1983",
+      "Perfil": "Utilizador"
     }
   ],
   "Categoria": [
