@@ -145,4 +145,7 @@ C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\refi
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.pdb
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\poo-projeto.genruntimeconfig.cache
 C:\Users\PC\Desktop\POO\GestaoFinancasPessoais\poo-projeto\obj\Debug\net9.0\ref\poo-projeto.dll
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

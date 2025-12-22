@@ -24,6 +24,7 @@
     {
       "Id": 4,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Nome": "emanuela",
       "Email": "emanuelatfsantos@gmail.com",
       "Password": "fred1983",
@@ -36,10 +37,15 @@
       "Password": "fred1983",
       "Perfil": "Utilizador"
 =======
+=======
+>>>>>>> Stashed changes
       "Nome": "ola",
       "Email": "ola@gmail.com",
       "Password": "1234",
       "Perfil": "user"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   ],
