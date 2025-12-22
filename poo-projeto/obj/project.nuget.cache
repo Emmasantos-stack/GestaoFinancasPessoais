@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "O0WE4rZajvM=",
+  "dgSpecHash": "XYk369hSrp4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santo\\OneDrive\\Ambiente de Trabalho\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
-=======
-  "dgSpecHash": "I7WuRoy8g80=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\POO\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
->>>>>>> f693ed6a52911e66eb0c18159983bed2deed3af2
+  "projectFilePath": "C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\poo-projeto.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\anafl\\Desktop\\GestaoFinancasPessoais\\poo-projeto\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
