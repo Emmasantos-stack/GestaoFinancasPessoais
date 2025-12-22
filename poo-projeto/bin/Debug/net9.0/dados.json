@@ -5,14 +5,14 @@
       "Nome": "Daniel",
       "Email": "dp9069501@gmail.com",
       "Password": "1234",
-      "Perfil": "Administrador"
+      "Perfil": "Utilizador"
     },
     {
       "Id": 2,
       "Nome": "ana",
       "Email": "ana@gmail.com",
       "Password": "asd",
-      "Perfil": "Administrador"
+      "Perfil": "Utilizador"
     },
     {
       "Id": 3,
@@ -25,17 +25,85 @@
   "Categoria": [
     {
       "Id": 2,
-      "Nome": "ASSA"
+      "Nome": "Alimenta\u00E7\u00E3o"
+    },
+    {
+      "Id": 3,
+      "Nome": "Transportes"
+    },
+    {
+      "Id": 4,
+      "Nome": "Habita\u00E7\u00E3o"
+    },
+    {
+      "Id": 5,
+      "Nome": "Lazer"
+    },
+    {
+      "Id": 6,
+      "Nome": "Sa\u00FAde"
+    },
+    {
+      "Id": 7,
+      "Nome": "Educa\u00E7\u00E3o"
     }
   ],
   "Transacao": [
     {
-      "Id": 1,
-      "Descricao": "SADSDASD",
-      "Valor": 222,
-      "Data": "2025-12-16T00:00:00",
+      "Id": 2,
+      "Descricao": "Sal\u00E1rio Mensal",
+      "Valor": 1200,
+      "Data": "2025-01-02T00:00:00",
       "Tipo": 1,
       "CategoriaId": 2
+    },
+    {
+      "Id": 3,
+      "Descricao": "Freelance Website",
+      "Valor": 350,
+      "Data": "2025-01-10T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": 7
+    },
+    {
+      "Id": 4,
+      "Descricao": "Venda na Vinted",
+      "Valor": 120,
+      "Data": "2025-01-15T00:00:00",
+      "Tipo": 1,
+      "CategoriaId": 5
+    },
+    {
+      "Id": 5,
+      "Descricao": "Ir ao Auchan",
+      "Valor": 180,
+      "Data": "2025-01-03T00:00:00",
+      "Tipo": 2,
+      "CategoriaId": 2
+    },
+    {
+      "Id": 6,
+      "Descricao": "Renda do Apartamento",
+      "Valor": 500,
+      "Data": "2025-01-05T00:00:00",
+      "Tipo": 2,
+      "CategoriaId": 4
+    },
+    {
+      "Id": 7,
+      "Descricao": "Gas\u00F3leo",
+      "Valor": 55,
+      "Data": "2025-01-08T00:00:00",
+      "Tipo": 2,
+      "CategoriaId": 3
+    },
+    {
+      "Id": 8,
+      "Descricao": "Consulta Hospital",
+      "Valor": 45,
+      "Data": "2025-01-18T00:00:00",
+      "Tipo": 2,
+      "CategoriaId": 6
     }
   ]
 }
